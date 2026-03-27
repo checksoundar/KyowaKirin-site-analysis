@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+    url: "https://adobe-my.sharepoint.com/:f:/r/personal/soundark_adobe_com/Documents/workspace/broadridge-site-analysis/content"
+    type: "markup"
+    suffix: ".html"
