@@ -1,60 +1,51 @@
 #!/usr/bin/env python3
-"""Generate comprehensive site analysis Word document for Kyowa Kirin Medical Site."""
+"""Generate comprehensive site analysis Word document for LG Russia (lg.com/ru)."""
 
 from docx import Document
 from docx.shared import Inches, Pt, Cm, RGBColor
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.enum.table import WD_TABLE_ALIGNMENT
-from docx.enum.section import WD_ORIENT
-from docx.oxml.ns import qn, nsdecls
-from docx.oxml import parse_xml
+from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
 import os
 
-doc = Document()
+SCREENSHOTS_DIR = "/tmp/playwright/screenshots"
 
-# ============================================================
-# STYLES
-# ============================================================
-style = doc.styles['Normal']
-font = style.font
-font.name = 'Calibri'
-font.size = Pt(10)
-
-for level in range(1, 4):
-    heading_style = doc.styles[f'Heading {level}']
-    heading_style.font.color.rgb = RGBColor(0xEA, 0x55, 0x04)  # Kyowa Kirin orange
-    heading_style.font.name = 'Calibri'
+def set_cell_shading(cell, color):
+    """Set cell background color."""
+    shading = OxmlElement('w:shd')
+    shading.set(qn('w:fill'), color)
+    shading.set(qn('w:val'), 'clear')
+    cell._tc.get_or_add_tcPr().append(shading)
 
 def add_table_with_style(doc, headers, rows, col_widths=None):
-    """Add a formatted table."""
+    """Add a formatted table to the document."""
     table = doc.add_table(rows=1 + len(rows), cols=len(headers))
-    table.style = 'Light Grid Accent 1'
-    table.alignment = WD_TABLE_ALIGNMENT.LEFT
+    table.alignment = WD_TABLE_ALIGNMENT.CENTER
+    table.style = 'Table Grid'
 
     # Header row
-    hdr = table.rows[0]
     for i, header in enumerate(headers):
-        cell = hdr.cells[i]
+        cell = table.rows[0].cells[i]
         cell.text = header
         for paragraph in cell.paragraphs:
-            paragraph.alignment = WD_ALIGN_PARAGRAPH.LEFT
+            paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
             for run in paragraph.runs:
-                run.font.bold = True
+                run.bold = True
                 run.font.size = Pt(9)
-                run.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
-        # Orange background
-        shading = parse_xml(f'<w:shd {nsdecls("w")} w:fill="EA5504"/>')
-        cell._tc.get_or_add_tcPr().append(shading)
+                run.font.color.rgb = RGBColor(255, 255, 255)
+        set_cell_shading(cell, 'A50034')  # LG brand red
 
     # Data rows
-    for r_idx, row_data in enumerate(rows):
-        row = table.rows[r_idx + 1]
-        for c_idx, cell_text in enumerate(row_data):
-            cell = row.cells[c_idx]
+    for r, row_data in enumerate(rows):
+        for c, cell_text in enumerate(row_data):
+            cell = table.rows[r + 1].cells[c]
             cell.text = str(cell_text)
             for paragraph in cell.paragraphs:
                 for run in paragraph.runs:
-                    run.font.size = Pt(9)
+                    run.font.size = Pt(8.5)
+            if r % 2 == 0:
+                set_cell_shading(cell, 'F5F5F5')
 
     if col_widths:
         for i, width in enumerate(col_widths):
@@ -64,720 +55,574 @@ def add_table_with_style(doc, headers, rows, col_widths=None):
     return table
 
 def add_screenshot(doc, filename, caption, width=5.5):
-    """Add a screenshot with caption if file exists."""
-    filepath = f'/workspace/{filename}'
+    """Add a screenshot image with caption."""
+    filepath = os.path.join(SCREENSHOTS_DIR, filename)
     if os.path.exists(filepath):
-        try:
-            doc.add_picture(filepath, width=Inches(width))
-            last_paragraph = doc.paragraphs[-1]
-            last_paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            cap = doc.add_paragraph(f'Figure: {caption}')
-            cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
-            cap.runs[0].font.size = Pt(8)
-            cap.runs[0].font.italic = True
-            cap.runs[0].font.color.rgb = RGBColor(0x66, 0x66, 0x66)
-            return True
-        except Exception as e:
-            doc.add_paragraph(f'[Screenshot: {caption} - {filename}]')
-            return False
-    else:
-        doc.add_paragraph(f'[Screenshot not available: {filename}]')
-        return False
-
-# ============================================================
-# TITLE PAGE
-# ============================================================
-doc.add_paragraph('')
-doc.add_paragraph('')
-doc.add_paragraph('')
-title = doc.add_paragraph()
-title.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = title.add_run('Site Analysis Report')
-run.font.size = Pt(28)
-run.font.color.rgb = RGBColor(0xEA, 0x55, 0x04)
-run.font.bold = True
-
-subtitle = doc.add_paragraph()
-subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = subtitle.add_run('Kyowa Kirin Medical Site')
-run.font.size = Pt(20)
-run.font.color.rgb = RGBColor(0x33, 0x33, 0x33)
-
-url_para = doc.add_paragraph()
-url_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = url_para.add_run('https://medical.kyowakirin.co.jp/')
-run.font.size = Pt(12)
-run.font.color.rgb = RGBColor(0x00, 0x56, 0xB3)
-
-doc.add_paragraph('')
-purpose = doc.add_paragraph()
-purpose.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = purpose.add_run('AEM Edge Delivery Services Migration Assessment')
-run.font.size = Pt(14)
-run.font.color.rgb = RGBColor(0x66, 0x66, 0x66)
-
-doc.add_paragraph('')
-date_para = doc.add_paragraph()
-date_para.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = date_para.add_run('Date: March 27, 2026')
-run.font.size = Pt(11)
-
-doc.add_paragraph('')
-doc.add_paragraph('')
-
-# Confidential notice
-conf = doc.add_paragraph()
-conf.alignment = WD_ALIGN_PARAGRAPH.CENTER
-run = conf.add_run('CONFIDENTIAL')
-run.font.size = Pt(10)
-run.font.bold = True
-run.font.color.rgb = RGBColor(0xCC, 0x00, 0x00)
-
-doc.add_page_break()
-
-# ============================================================
-# TABLE OF CONTENTS
-# ============================================================
-doc.add_heading('Table of Contents', level=1)
-toc_items = [
-    '1. Executive Summary',
-    '2. Templates Inventory',
-    '3. Blocks / Components Catalog',
-    '4. Page Counts by Template',
-    '5. Integrations Analysis',
-    '6. Complex Use Cases & Observations',
-    '7. Migration Estimates',
-    '8. Appendix: Screenshots'
-]
-for item in toc_items:
-    p = doc.add_paragraph(item)
-    p.paragraph_format.space_after = Pt(4)
-
-doc.add_page_break()
-
-# ============================================================
-# 1. EXECUTIVE SUMMARY
-# ============================================================
-doc.add_heading('1. Executive Summary', level=1)
-doc.add_paragraph(
-    'This report provides a comprehensive analysis of the Kyowa Kirin Medical Site '
-    '(https://medical.kyowakirin.co.jp/), a healthcare professional (HCP) portal '
-    'operated by Kyowa Kirin Co., Ltd. The site serves as the primary digital channel '
-    'for medical professionals in Japan to access drug information, clinical resources, '
-    'web seminars, medical literature, and practice support tools.'
-)
-doc.add_paragraph(
-    'The site is built on a custom technology stack using Vue.js 3 (development build), '
-    'jQuery, and a custom backend API layer. It features role-based access gating '
-    '(requiring HCP verification), member authentication with SSO (medPass, DLink), '
-    'and personalized content recommendations via Marketo RTP.'
-)
-
-doc.add_heading('Key Findings', level=2)
-findings = [
-    '11 distinct page templates identified, ranging from Simple to Complex',
-    '20+ reusable blocks/components cataloged across the site',
-    'Estimated 350-450+ total pages (including deep content articles, PDFs, and product pages)',
-    '15+ third-party integrations including analytics, marketing automation, chatbot, and SSO',
-    'Significant complexity in authentication gating, recommendation engine, and interactive tools',
-    'Vue.js-based dynamic rendering creates challenges for static content migration',
-    'Estimated total migration effort: 55-80 person-days'
-]
-for f in findings:
-    doc.add_paragraph(f, style='List Bullet')
-
-doc.add_paragraph('')
-add_screenshot(doc, 'homepage-clean.png', 'Kyowa Kirin Medical Site - Homepage', 5.0)
-
-doc.add_page_break()
-
-# ============================================================
-# 2. TEMPLATES INVENTORY
-# ============================================================
-doc.add_heading('2. Templates Inventory', level=1)
-doc.add_paragraph(
-    'The following table lists all unique page templates identified across the site. '
-    'Each template represents a distinct layout pattern with specific component composition.'
-)
-
-template_data = [
-    ['T01', 'Homepage', 'Complex',
-     'Rich landing page with hero carousel (6 slides), product search widget, seminar listing with category filters, news feed with tabs, recommendation carousel, contact section, and promotional cards. Uses Vue.js for dynamic content loading.',
-     'https://medical.kyowakirin.co.jp/'],
-    ['T02', 'Medical Area Landing', 'Complex',
-     'Category landing for clinical specialties (Kidney, Hematonco, Allergy, Neuro, Rare Disease). Features expandable category accordion, seminar CTA, content carousel, product logo grid, and optional feature cards. Single-column layout.',
-     'https://medical.kyowakirin.co.jp/kidney/\nhttps://medical.kyowakirin.co.jp/allergy/\nhttps://medical.kyowakirin.co.jp/hematonco/\nhttps://medical.kyowakirin.co.jp/neuro/\nhttps://medical.kyowakirin.co.jp/raredisease/'],
-    ['T03', 'Product List / Catalog', 'Complex',
-     'Data-driven product listing with Japanese syllabary (Aiueo) filter tabs, search functionality, and product data table with document availability indicators. Vue.js handles dynamic filtering via /api/v1.0/product.',
-     'https://medical.kyowakirin.co.jp/druginfo/detail/'],
-    ['T04', 'Product Detail', 'Medium',
-     'Individual product page with document links table (PI, IF, Guide), product photos, filtered notice list, and related products section. 2-column layout with sidebar.',
-     'https://medical.kyowakirin.co.jp/druginfo/detail/activacin-for-injection-600/'],
-    ['T05', 'Article / Column', 'Medium',
-     'Long-form content page with table of contents, structured sections (H2/H3), author attribution, content gating for member-only sections, and related articles. 2-column with right sidebar.',
-     'https://medical.kyowakirin.co.jp/support/work-style/generative-ai.html'],
-    ['T06', 'Facility Case Study', 'Medium',
-     'Deep article template with facility overview (photo, key facts), 8+ numbered sections, staff photos with captions, printable PDF, related facilities, and product promotions. 2-column with sidebar.',
-     'https://medical.kyowakirin.co.jp/kidney/disease/toseki_s/051/index.html'],
-    ['T07', 'Content Listing / Library', 'Medium',
-     'Grid or list-based content collections with category filtering. Used for seminar listings, news, video library, materials, booklets. Includes tab-based filters, year selectors, and pagination. 2-column with sidebar.',
-     'https://medical.kyowakirin.co.jp/webseminar/index.html\nhttps://medical.kyowakirin.co.jp/newslist.html\nhttps://medical.kyowakirin.co.jp/support/movie_library/\nhttps://medical.kyowakirin.co.jp/leaf/index.html\nhttps://medical.kyowakirin.co.jp/druginfo/newslist/'],
-    ['T08', 'Data Table Page', 'Simple',
-     'Tabular data display for product information (code tables, discontinued products, RMP materials). Static tables with optional PDF download links. 2-column with sidebar.',
-     'https://medical.kyowakirin.co.jp/druginfo/code_table/\nhttps://medical.kyowakirin.co.jp/druginfo/drgdiscon/\nhttps://medical.kyowakirin.co.jp/druginfo/rmp.html'],
-    ['T09', 'Interactive Tool', 'Complex',
-     'Medical calculator page with multiple assessment tools (BSA, PASI, DLQI, PDI). Features tab navigation, dropdown selectors, interactive calculation interfaces, and visual diagrams. Vue.js-powered.',
-     'https://medical.kyowakirin.co.jp/allergy/disease/tool-index.html'],
-    ['T10', 'Authentication / Form', 'Complex',
-     'Login and registration pages with multi-field forms, SSO integrations (medPass, DLink), postal code API lookup, multi-step wizard flow, and client-side validation. Single-column centered layout.',
-     'https://medical.kyowakirin.co.jp/login.html\nhttps://medical.kyowakirin.co.jp/menu/entry_input.html'],
-    ['T11', 'Utility / Static', 'Simple',
-     'Informational pages including sitemap, FAQ (accordion), terms of use, contact info, and external link confirmation. Minimal dynamic features. Variable layouts (single or 2-column).',
-     'https://medical.kyowakirin.co.jp/sitemap.html\nhttps://medical.kyowakirin.co.jp/faq.html\nhttps://medical.kyowakirin.co.jp/terms.html\nhttps://medical.kyowakirin.co.jp/contact.html\nhttps://medical.kyowakirin.co.jp/external/confirmation.html'],
-]
-
-add_table_with_style(doc,
-    ['ID', 'Template Name', 'Complexity', 'Description & Reasoning', 'Reference URL(s)'],
-    template_data,
-    [1.2, 2.8, 1.5, 6.5, 5.0]
-)
-
-doc.add_paragraph('')
-doc.add_heading('Template Complexity Legend', level=3)
-doc.add_paragraph('Simple: Static content, minimal JS, straightforward layout (<2 days to implement)', style='List Bullet')
-doc.add_paragraph('Medium: Some dynamic features, structured content model, moderate interactivity (2-4 days)', style='List Bullet')
-doc.add_paragraph('Complex: Heavy JS/Vue.js, API integrations, dynamic filtering, interactive tools (4-8 days)', style='List Bullet')
-
-doc.add_paragraph('')
-doc.add_heading('Template Screenshots', level=2)
-
-template_screenshots = [
-    ('homepage-clean.png', 'T01 - Homepage'),
-    ('kidney-landing.png', 'T02 - Medical Area Landing (Kidney)'),
-    ('drug-list.png', 'T03 - Product List / Catalog'),
-    ('drug-detail.png', 'T04 - Product Detail'),
-    ('article-column.png', 'T05 - Article / Column'),
-    ('facility-case-detail.png', 'T06 - Facility Case Study'),
-    ('seminar-list.png', 'T07 - Content Listing (Seminar)'),
-    ('discontinued-products.png', 'T08 - Data Table Page'),
-    ('tool-calculator.png', 'T09 - Interactive Tool'),
-    ('login-page.png', 'T10 - Authentication / Form (Login)'),
-    ('faq-page.png', 'T11 - Utility / Static (FAQ)'),
-]
-
-for filename, caption in template_screenshots:
-    add_screenshot(doc, filename, caption, 4.5)
-    doc.add_paragraph('')
-
-doc.add_page_break()
-
-# ============================================================
-# 3. BLOCKS / COMPONENTS CATALOG
-# ============================================================
-doc.add_heading('3. Blocks / Components Catalog', level=1)
-doc.add_paragraph(
-    'The following catalog identifies all reusable blocks and components observed across the site. '
-    'Design variations of the same content model are grouped as variants rather than separate blocks.'
-)
-
-blocks_data = [
-    ['B01', 'Global Header', 'High',
-     'Persistent orange header with Kyowa Kirin logo, utility links (contact, search, login, register), and 5-item icon-based main navigation with mega-menu dropdowns. Includes mobile responsive hamburger menu.',
-     'All pages'],
-    ['B02', 'Global Footer', 'Medium',
-     '5-column footer with comprehensive sitemap links organized by section (Drug Info, Regional Info, Seminars, Materials, Support). Includes legal links row (privacy, terms, sitemap, FAQ, contact) and copyright.',
-     'All pages'],
-    ['B03', 'HCP Gate Dialog', 'High',
-     'Full-screen modal overlay requiring healthcare professional role selection (Doctor, Pharmacist, Nurse, Other). Includes login form with email/password, medPass SSO, DLink SSO. Uses Lity.js lightbox library. Sets cookies for persistent verification.',
-     'All pages (first visit)'],
-    ['B04', 'Hero Carousel', 'High',
-     'Auto-rotating image slider with 6 slides, prev/next arrows, dot indicators. Full-width banner images linking to promotional content. Uses Slick slider library with touch/swipe support.',
-     'https://medical.kyowakirin.co.jp/'],
-    ['B05', 'Product Search Widget', 'High',
-     'Inline search box with product name input, search button, and Japanese syllabary (Aiueo) filter links. Includes chatbot launcher button. Vue.js handles API calls to /api/v1.0/product.',
-     'https://medical.kyowakirin.co.jp/'],
-    ['B06', 'Seminar Listing', 'High',
-     'Dynamic seminar list with category filter tabs (All, Kidney, Cancer, Allergy, Neuro, Rare Disease, Other). Each item shows category badge, title, and date/time. "Show all" CTA button. Vue.js-rendered.',
-     'https://medical.kyowakirin.co.jp/\nhttps://medical.kyowakirin.co.jp/webseminar/index.html'],
-    ['B07', 'News/Content Feed', 'Medium',
-     'Tabbed content feed showing latest articles with thumbnail images, titles, descriptions, and publish dates. Category filter tabs. Horizontal card layout (4 cards per row). Link to full listing.',
-     'https://medical.kyowakirin.co.jp/'],
-    ['B08', 'Recommendation Carousel', 'High',
-     'Personalized content carousel powered by /api/v1.0/recommend API. Shows 4-5 cards with thumbnails and titles. Appears on homepage and in sidebar. Vue.js component with Slick slider.',
-     'Homepage + sidebar on most pages'],
-    ['B09', 'Right Sidebar', 'Medium',
-     'Standard sidebar composition: opt-in notification banner (top), recommendation carousel cards, and e-learning promotional banner (bottom). Consistent across 2-column pages.',
-     'Most content pages'],
-    ['B10', 'Breadcrumb Navigation', 'Low',
-     'Horizontal breadcrumb trail showing page hierarchy (HOME > Section > Sub-section > Page). Standard HTML links with ">" separators.',
-     'All pages except homepage'],
-    ['B11', 'Category Accordion', 'Medium',
-     'Expandable category sections with thumbnail images, 2 recent items preview, and "View All" link. Used on medical area landing pages. Accordion expand/collapse behavior.',
-     'https://medical.kyowakirin.co.jp/kidney/\nhttps://medical.kyowakirin.co.jp/allergy/ (etc.)'],
-    ['B12', 'Product Logo Grid', 'Low',
-     'Grid of clickable product name/logo images. Responsive layout adapting from 4 to 6 columns. Links to individual product detail pages.',
-     'Medical area landing pages'],
-    ['B13', 'Content Card Grid', 'Medium',
-     'Grid of cards with image thumbnails, titles, and descriptions. Used for facility case studies, audio lectures, video library, article series. Variants: 3-column, 4-column, horizontal.',
-     'Multiple templates (T05, T06, T07)'],
-    ['B14', 'Data Table', 'Medium',
-     'Structured HTML tables for product data display. Variants include: document links table (product detail), discontinued products table, code/price table, and RMP materials table. Optional PDF download links.',
-     'Drug info pages (T03, T04, T08)'],
-    ['B15', 'Contact / CTA Block', 'Low',
-     'Contact information section with phone number table (free call 0120-850-150), business hours, usage notes, and "Contact Us" CTA button. Used on homepage.',
-     'https://medical.kyowakirin.co.jp/'],
-    ['B16', 'Promotional Banner Cards', 'Low',
-     '3-column cards linking to external/internal promotional content (Clinical Research, Stories, e-Learning). Each card has image, title, and description text.',
-     'https://medical.kyowakirin.co.jp/'],
-    ['B17', 'FAQ Accordion', 'Medium',
-     'Tabbed FAQ sections with numbered Q&A accordion items. Horizontal tabs for category filtering, clickable questions expanding to show answers. Vue.js toggle behavior.',
-     'https://medical.kyowakirin.co.jp/faq.html'],
-    ['B18', 'Floating Seminar CTA', 'Low',
-     'Fixed-position floating button at bottom-right of screen. Green calendar icon with "Seminar Schedule" text. Links to /webseminar/index.html. Persistent across all pages.',
-     'All pages'],
-    ['B19', 'Cookie Consent Banner', 'Medium',
-     'Ensighten Privacy-powered consent banner with Accept All/Settings options. Full-width bottom overlay. Category-based consent toggles in settings modal.',
-     'All pages (first visit)'],
-    ['B20', 'Chatbot Widget', 'High',
-     'Fujitsu CHORDSHIP AI chatbot for product Q&A. Floating chat launcher button. Full chat window with message input, decorations, and option lists. Loaded from external Fujitsu cloud.',
-     'All pages (Drug Info section)'],
-    ['B21', 'Supply Status Alert', 'Low',
-     'Orange/red alert banner at top of Drug Info pages notifying about product shipment suspension or discontinuation. Links to relevant product pages.',
-     'Drug Info pages'],
-    ['B22', 'Keyword Search Bar', 'Low',
-     'Full-width search input with magnifying glass button. Submits to /search.html. Appears below hero on homepage.',
-     'https://medical.kyowakirin.co.jp/'],
-    ['B23', 'Content Area Carousel', 'Medium',
-     'Rotating banner slider within medical area landing pages. Shows seminar/content promotions specific to the clinical area. Variant of Hero Carousel with smaller size.',
-     'Medical area landing pages'],
-    ['B24', 'External Link Confirmation', 'Low',
-     'Centered confirmation dialog for external site navigation. Shows disclaimer text with Yes/No buttons. Vue.js reads outLink query parameter.',
-     'https://medical.kyowakirin.co.jp/external/confirmation.html'],
-]
-
-add_table_with_style(doc,
-    ['ID', 'Block Name', 'Complexity', 'Description & Functionality', 'Reference URL(s)'],
-    blocks_data,
-    [1.0, 2.5, 1.3, 7.5, 4.5]
-)
-
-doc.add_paragraph('')
-doc.add_heading('Block Complexity Legend', level=3)
-doc.add_paragraph('Low: Static HTML/CSS, no JavaScript interactivity required', style='List Bullet')
-doc.add_paragraph('Medium: Moderate interactivity (accordion, tabs, sliders), limited API calls', style='List Bullet')
-doc.add_paragraph('High: Complex JS/Vue.js, external API integrations, real-time data, SSO', style='List Bullet')
-
-doc.add_paragraph('')
-doc.add_heading('Key Component Screenshots', level=2)
-
-block_screenshots = [
-    ('homepage-gate.png', 'B03 - HCP Gate Dialog with Login/SSO'),
-    ('homepage-clean.png', 'B04/B05/B06 - Homepage: Hero Carousel, Product Search, Seminar Listing'),
-    ('kidney-landing.png', 'B11/B12/B23 - Area Landing: Category Accordion, Product Grid, Area Carousel'),
-    ('leaf-materials.png', 'B07/B13 - Content Card Grid / Materials Library'),
-    ('movie-library.png', 'B13 - Content Card Grid Variant (Video Library)'),
-    ('illust-collection.png', 'B13 - Content Card Grid Variant (Illustration Collection with Left Nav)'),
-]
-for filename, caption in block_screenshots:
-    add_screenshot(doc, filename, caption, 4.5)
-    doc.add_paragraph('')
-
-doc.add_page_break()
-
-# ============================================================
-# 4. PAGE COUNTS BY TEMPLATE
-# ============================================================
-doc.add_heading('4. Page Counts by Template', level=1)
-doc.add_paragraph(
-    'The following table estimates the number of pages using each template type, '
-    'based on sitemap analysis, navigation exploration, and content structure patterns. '
-    'Note: Many pages require member login for access, so counts are estimated from '
-    'visible navigation and sitemap data.'
-)
-
-page_count_data = [
-    ['T01', 'Homepage', '1', 'Manual',
-     'Highly customized; requires custom block development for hero carousel, product search, recommendation engine, and dynamic seminar listing.'],
-    ['T02', 'Medical Area Landing', '5', 'Semi-Auto',
-     'Consistent template across 5 clinical areas. Content varies (number of categories, products, carousel items) but structure is identical. Template can be automated; content needs manual mapping.'],
-    ['T03', 'Product List / Catalog', '1-2', 'Manual',
-     'API-driven dynamic page with syllabary filtering. Requires reimplementation of product search API and Vue.js filtering logic.'],
-    ['T04', 'Product Detail', '30-40', 'Semi-Auto',
-     'One page per pharmaceutical product. Structured data (document links, photos, notices). Could be automated with proper data extraction from API.'],
-    ['T05', 'Article / Column', '50-80', 'Semi-Auto',
-     'Includes work-style columns (~10), audio lectures (~10), disease info articles (~30-40), and other editorial content. Structured but member-gated content requires manual verification.'],
-    ['T06', 'Facility Case Study', '20-25', 'Semi-Auto',
-     'Deep articles across 5 series: CKD LIAISON (4), Dialysis Frontline (6+), Chemo Reports (6), PD med.front (1), Rare Disease (6). Rich media and structured sections.'],
-    ['T07', 'Content Listing / Library', '10-15', 'Manual',
-     'Dynamic listing pages with category filters, year selectors, pagination. Includes seminar list, news list, video library, materials, product news, Q&A list. Vue.js rendering.'],
-    ['T08', 'Data Table Page', '5-8', 'Automated',
-     'Relatively static tabular content. Code tables, discontinued products, RMP materials, price lists. Low complexity, easy to migrate.'],
-    ['T09', 'Interactive Tool', '3-5', 'Manual',
-     'Medical calculators (BSA, PASI, DLQI, PDI) and other interactive assessment tools. Require custom JavaScript reimplementation.'],
-    ['T10', 'Authentication / Form', '5-8', 'Manual',
-     'Login, registration (multi-step), password reset, opt-in preferences. Require SSO integration (medPass, DLink) and form backend.'],
-    ['T11', 'Utility / Static', '8-10', 'Automated',
-     'Sitemap, FAQ, terms, contact, external confirmation. Static content easily migrated.'],
-    ['', 'PDF Documents', '100-150+', 'N/A (Asset)',
-     'Product information PDFs, guideline documents, booklet PDFs. These are assets to be migrated as-is to DAM, not HTML pages.'],
-]
-
-add_table_with_style(doc,
-    ['ID', 'Template', 'Est. Page Count', 'Migration Type', 'Notes'],
-    page_count_data,
-    [1.0, 2.8, 2.0, 1.8, 9.0]
-)
-
-doc.add_paragraph('')
-
-# Summary box
-summary = doc.add_paragraph()
-run = summary.add_run('Total Estimated HTML Pages: 138-199')
-run.font.bold = True
-run.font.size = Pt(11)
-doc.add_paragraph('')
-run2 = doc.add_paragraph().add_run('Total Including PDF Assets: 238-349+')
-run2.font.bold = True
-run2.font.size = Pt(11)
-
-doc.add_paragraph('')
-doc.add_heading('Migration Type Summary', level=2)
-
-migration_type_data = [
-    ['Automated', '13-18 pages', 'Data tables, static utility pages. Standard HTML extraction.', 'T08, T11'],
-    ['Semi-Automated', '105-150 pages', 'Structured content with consistent templates. Requires template setup then automated content extraction.', 'T02, T04, T05, T06'],
-    ['Manual', '20-31 pages', 'Dynamic/interactive pages requiring custom reimplementation (API-driven, Vue.js, SSO, calculators).', 'T01, T03, T07, T09, T10'],
-]
-
-add_table_with_style(doc,
-    ['Migration Type', 'Page Count', 'Description', 'Templates'],
-    migration_type_data,
-    [2.5, 2.5, 7.5, 4.0]
-)
-
-doc.add_page_break()
-
-# ============================================================
-# 5. INTEGRATIONS ANALYSIS
-# ============================================================
-doc.add_heading('5. Integrations Analysis', level=1)
-doc.add_paragraph(
-    'The site integrates with numerous third-party services and internal APIs. '
-    'This section catalogs all identified integrations with their complexity assessment.'
-)
-
-doc.add_heading('5.1 Third-Party Integrations', level=2)
-
-integrations_data = [
-    ['Google Tag Manager', 'Tag Management', 'Embed', 'Medium',
-     'Container GTM-MRQPPQ8. Manages GA4, UA, and other marketing tags.',
-     'All pages'],
-    ['Google Analytics 4', 'Analytics', 'Embed', 'Medium',
-     'Measurement ID G-K97ZXD4E0W. Tracks page views, scroll, engagement. Custom dimensions: uid, userjob.',
-     'All pages'],
-    ['Google Universal Analytics', 'Analytics (Legacy)', 'Embed', 'Low',
-     'Tracking ID UA-139042179-1. Legacy implementation running alongside GA4.',
-     'All pages'],
-    ['Ensighten Privacy', 'Consent Management', 'Embed/Plugin', 'High',
-     'Full cookie consent management with category-based toggles. Controls tag firing. Client: kirin, publish path: prod_medical-kyowakirin.',
-     'All pages'],
-    ['Marketo Munchkin', 'Marketing Automation', 'Embed', 'Medium',
-     'Account 801-WGL-416. Tracks page visits for lead scoring and email automation.',
-     'All pages'],
-    ['Marketo RTP', 'Web Personalization', 'Embed', 'High',
-     'Real-time personalization engine providing campaign overlays and segment-based content targeting.',
-     'All pages'],
-    ['Nakanohito (User Insight)', 'B2B Analytics', 'Embed', 'Low',
-     'Account 55517. Japanese B2B analytics identifying visiting companies.',
-     'All pages'],
-    ['Fujitsu CHORDSHIP', 'AI Chatbot', 'Embed/SaaS', 'High',
-     'Instance bctrl123-standard. Full AI chatbot for product Q&A. Cloud-hosted on Fujitsu infrastructure.',
-     'All pages (Drug Info)'],
-    ['medPass SSO', 'Authentication', 'API/Redirect', 'High',
-     'Japanese medical professional SSO platform. Redirect-based authentication flow.',
-     'Login, Gate Dialog'],
-    ['DLink SSO', 'Authentication', 'API/Plugin', 'High',
-     'Alternative SSO provider for healthcare professionals. Button-based login.',
-     'Login, Gate Dialog'],
-    ['Google Fonts', 'CDN/Typography', 'Embed', 'Low',
-     'External font loading from fonts.googleapis.com.',
-     'All pages'],
-    ['Kirin FAQ Platform', 'External Forms', 'Redirect', 'Medium',
-     'External form hosting at faq.kirin.co.jp for inquiries and feedback.',
-     'Contact page'],
-]
-
-add_table_with_style(doc,
-    ['Integration', 'Type', 'Method', 'Complexity', 'Description', 'Pages Used'],
-    integrations_data,
-    [2.5, 2.0, 1.5, 1.3, 5.5, 2.5]
-)
-
-doc.add_paragraph('')
-doc.add_heading('5.2 Internal API Endpoints', level=2)
-doc.add_paragraph(
-    'The site exposes several internal REST API endpoints used by the Vue.js frontend:'
-)
-
-api_data = [
-    ['/api/v1.0/medical_confirm', 'GET', 'Verify HCP status and set medical_check cookie', 'Gate Dialog'],
-    ['/api/v1.0/product', 'GET', 'Product search/listing (params: category, word, action)', 'Product List/Search'],
-    ['/api/v1.0/product_uselimit', 'GET', 'Product expiry date search (params: name, no)', 'Lot Search'],
-    ['/api/v1.0/recommend', 'GET', 'Personalized content recommendations', 'Homepage, Sidebar'],
-    ['/api/v1.0/zip_search', 'GET', 'Postal code to address lookup', 'Registration Form'],
-    ['/api/v1.0/Reg_Keii_Log', 'POST', 'Audit logging for external journal link access', 'Journal Links'],
-    ['/api/v1.0/mypage/set_favorite', 'POST', 'Bookmark/favorite content items', 'Member Pages'],
-]
-
-add_table_with_style(doc,
-    ['Endpoint', 'Method', 'Purpose', 'Used By'],
-    api_data,
-    [4.0, 1.5, 6.5, 3.5]
-)
-
-doc.add_page_break()
-
-# ============================================================
-# 6. COMPLEX USE CASES & OBSERVATIONS
-# ============================================================
-doc.add_heading('6. Complex Use Cases & Observations', level=1)
-doc.add_paragraph(
-    'The following complex behaviors, edge cases, and functionality require special '
-    'attention during migration planning.'
-)
-
-complex_data = [
-    ['CU-01', 'HCP Gate Authentication',
-     'Every page requires Healthcare Professional (HCP) verification via a modal dialog. Users must select their role (Doctor, Pharmacist, Nurse, etc.) before accessing any content. Session managed via cookies (medical_check). Includes full login form with email/password and two SSO providers (medPass, DLink).',
-     'All pages', '1 (global)',
-     'Requires reimplementation of role-based access control, cookie management, and SSO integration with medPass and DLink. Forms the foundation of the entire site access model.'],
-    ['CU-02', 'Member-Only Content Gating',
-     'Certain content sections and full articles are only accessible to logged-in members. Non-members see truncated content with "Continue reading" CTAs that redirect to login. Content visibility is controlled server-side based on session state.',
-     'Article pages, area sub-pages', '50-80 pages',
-     'Content gating logic needs to be reimplemented. Affects content migration since full content may not be extractable without authentication.'],
-    ['CU-03', 'Personalized Recommendations',
-     'The /api/v1.0/recommend API provides personalized content suggestions based on browsing history. Vue.js components render recommendation carousels on homepage and in sidebar. Marketo RTP provides additional personalization layer.',
-     'Homepage, sidebar on all pages', '2 implementations',
-     'Requires alternative recommendation/personalization strategy in EDS. Could use Edge Delivery personalization or simplified static recommendations.'],
-    ['CU-04', 'Dynamic Product Search & Filtering',
-     'Product listing uses Vue.js with real-time API calls to /api/v1.0/product for filtering by Japanese syllabary categories and keyword search. Product expiry search uses separate API endpoint.',
-     'Product list, Lot search', '2-3 pages',
-     'Requires custom JavaScript block with API backend or alternative data source. Japanese syllabary filtering is a unique requirement.'],
-    ['CU-05', 'Interactive Medical Calculators',
-     'BSA, PASI, DLQI, PDI medical assessment calculators with complex scoring logic, body region diagrams, and multi-field input forms. Used for psoriasis severity and QOL evaluation.',
-     'Allergy tool page', '3-5 tools',
-     'Each calculator requires custom JavaScript reimplementation. Medical accuracy is critical - requires clinical validation after migration.'],
-    ['CU-06', 'AI Chatbot (Fujitsu CHORDSHIP)',
-     'Full AI-powered chatbot for pharmaceutical Q&A. Loads from external Fujitsu cloud infrastructure. Complex initialization with multiple JS files, CSS, and configuration.',
-     'All pages (Drug Info section)', '1 (global)',
-     'External SaaS dependency. Embed code needs to be preserved or chatbot needs to be re-integrated in EDS template.'],
-    ['CU-07', 'Webinar Platform Integration',
-     'Seminar pages link to member-only webinar streaming at /member/webseminar?seminar_id=XXX. Requires authenticated access. Seminar listing is dynamically rendered with category filtering.',
-     'Seminar listing, individual seminars', '10-20 seminars',
-     'Webinar platform integration needs investigation. May require custom embed or redirect solution.'],
-    ['CU-08', 'External Link Audit Trail',
-     'All external links (especially journal/literature links) route through confirmation pages (/external/confirmation.html, /external/journal.html) with audit logging via /api/v1.0/Reg_Keii_Log. Required for pharmaceutical regulatory compliance.',
-     'All external links', '50+ instances',
-     'Regulatory requirement. External link interstitial pattern must be preserved for compliance.'],
-    ['CU-09', 'Vue.js Development Build in Production',
-     'The site runs Vue.js 3 development build (not production minified). Console shows warning about this. Suggests the site may be using features that depend on development-mode behavior.',
-     'All pages', 'Global',
-     'Risk factor: behavior may change if upgraded to production build. Should be flagged for testing.'],
-    ['CU-10', 'Aggressive Client-Side Redirects',
-     'common.js contains logic that automatically redirects users to previously-viewed content based on cookies/browsing history. This causes unexpected navigation during crawling and content extraction.',
-     'All pages', 'Global',
-     'Complicates automated content migration. Crawlers/importers need to handle or bypass redirect logic.'],
-    ['CU-11', 'Disaster Recovery Mode',
-     'disasterRecovery.js controls visibility of login/registration UI elements during emergencies. Ensures basic drug information remains accessible without authentication during disaster scenarios.',
-     'All pages', '1 mode',
-     'Edge case but important for pharmaceutical compliance. Needs equivalent mechanism in EDS.'],
-    ['CU-12', 'PDF Document Ecosystem',
-     'Extensive PDF document library including product information (PI/IF), guidelines, booklets, and patient materials. Custom PDF viewer (/pdfview/web/viewer.html) using PDF.js. Some PDFs are gated behind authentication.',
-     'Throughout site', '100-150+ PDFs',
-     'PDFs need to be migrated to DAM. PDF viewer functionality needs reimplementation or simplification. Gated PDFs need access control.'],
-]
-
-add_table_with_style(doc,
-    ['ID', 'Use Case', 'Description', 'Where Found', 'Instances', 'Why Complex'],
-    complex_data,
-    [1.0, 2.5, 5.5, 2.5, 1.5, 4.0]
-)
-
-doc.add_page_break()
-
-# ============================================================
-# 7. MIGRATION ESTIMATES
-# ============================================================
-doc.add_heading('7. Migration Estimates', level=1)
-doc.add_paragraph(
-    'The following estimates are based on the identified templates, components, integrations, '
-    'and complex use cases. Estimates assume a team familiar with AEM Edge Delivery Services '
-    'and the current technology stack.'
-)
-
-doc.add_heading('7.1 Effort Breakdown by Template', level=2)
-
-effort_data = [
-    ['T01', 'Homepage', '1', '8-10', 'Manual',
-     'Custom blocks: hero carousel, product search widget, seminar listing, recommendation engine, contact section.'],
-    ['T02', 'Medical Area Landing', '5', '6-8', 'Semi-Auto',
-     'Single template with 5 content variations. Category accordion, product grid, area carousel.'],
-    ['T03', 'Product List / Catalog', '1-2', '5-7', 'Manual',
-     'API-driven product search with syllabary filtering. Requires backend API or data indexing.'],
-    ['T04', 'Product Detail', '30-40', '4-6', 'Semi-Auto',
-     'Template development + automated content extraction via product API. ~0.5 hr per page for QA.'],
-    ['T05', 'Article / Column', '50-80', '4-6', 'Semi-Auto',
-     'Template development + bulk import. Content gating logic adds complexity.'],
-    ['T06', 'Facility Case Study', '20-25', '3-5', 'Semi-Auto',
-     'Structured long-form template. Rich media handling. ~1 hr per page for QA.'],
-    ['T07', 'Content Listing / Library', '10-15', '6-8', 'Manual',
-     'Multiple listing variants (seminars, news, videos, materials). Dynamic filtering.'],
-    ['T08', 'Data Table Page', '5-8', '2-3', 'Automated',
-     'Simple table extraction. Minimal customization needed.'],
-    ['T09', 'Interactive Tool', '3-5', '8-12', 'Manual',
-     'Medical calculators require custom JS. Clinical accuracy validation critical.'],
-    ['T10', 'Authentication / Form', '5-8', '6-8', 'Manual',
-     'SSO integration (medPass, DLink), multi-step registration, validation.'],
-    ['T11', 'Utility / Static', '8-10', '2-3', 'Automated',
-     'Simple content extraction. FAQ accordion needs minor JS.'],
-]
-
-add_table_with_style(doc,
-    ['ID', 'Template', 'Pages', 'Dev Effort (days)', 'Migration Type', 'Notes'],
-    effort_data,
-    [1.0, 2.8, 1.5, 2.0, 1.5, 7.5]
-)
-
-doc.add_paragraph('')
-doc.add_heading('7.2 Cross-Cutting Effort', level=2)
-
-crosscut_data = [
-    ['Design System / CSS Migration', '5-7', 'Extract and map design tokens, typography, color palette (orange #EA5504 brand), spacing system.'],
-    ['Global Header & Navigation', '3-4', 'Implement responsive header with mega-menu, mobile hamburger, utility links.'],
-    ['Global Footer', '2-3', '5-column footer with sitemap, legal links, copyright.'],
-    ['HCP Gate / Authentication', '5-8', 'Role-based gating, login form, medPass SSO, DLink SSO integration.'],
-    ['Recommendation Engine', '3-5', 'Replace or reimplement personalized content recommendations.'],
-    ['Chatbot Integration', '2-3', 'Re-embed Fujitsu CHORDSHIP chatbot in EDS templates.'],
-    ['Search Functionality', '3-4', 'Implement site search and product search in EDS.'],
-    ['Analytics & Tag Management', '2-3', 'Migrate GTM, GA4, Ensighten, Marketo, Nakanohito tags.'],
-    ['PDF Migration & Viewer', '2-3', 'Migrate 100-150+ PDFs to DAM. Implement or simplify PDF viewer.'],
-    ['External Link Compliance', '1-2', 'Implement external link confirmation interstitial for regulatory compliance.'],
-    ['Content Import Scripts', '5-7', 'Develop import infrastructure: parsers, transformers, bulk import scripts.'],
-    ['Cookie Consent (Ensighten)', '2-3', 'Reintegrate Ensighten Privacy or migrate to alternative consent platform.'],
-]
-
-add_table_with_style(doc,
-    ['Work Item', 'Effort (days)', 'Description'],
-    crosscut_data,
-    [3.5, 2.0, 11.0]
-)
-
-doc.add_paragraph('')
-doc.add_heading('7.3 QA & Testing Effort', level=2)
-
-qa_data = [
-    ['Template Validation', '3-5', 'Visual comparison of all 11 templates against originals.'],
-    ['Content Accuracy Check', '5-8', 'Verify all migrated content matches source. Japanese text, product names, dosages.'],
-    ['Interactive Features Testing', '3-5', 'Test calculators, search, filtering, carousels, chatbot, SSO.'],
-    ['Responsive/Mobile Testing', '2-3', 'Verify all pages on mobile, tablet, desktop breakpoints.'],
-    ['Accessibility Compliance', '2-3', 'WCAG 2.1 AA compliance check (required for medical sites in Japan).'],
-    ['Cross-Browser Testing', '1-2', 'Edge, Chrome, Safari (as specified in site terms).'],
-    ['Performance Testing', '1-2', 'Core Web Vitals, Lighthouse scores, page load times.'],
-    ['Security / Auth Testing', '2-3', 'Verify HCP gating, login flow, SSO, content access control.'],
-    ['PDF & Document Testing', '1-2', 'Verify all PDF links, viewer functionality, download access.'],
-    ['Regulatory Compliance', '2-3', 'External link interstitials, content gating, audit trails.'],
-]
-
-add_table_with_style(doc,
-    ['QA Activity', 'Effort (days)', 'Description'],
-    qa_data,
-    [3.5, 2.0, 11.0]
-)
-
-doc.add_paragraph('')
-doc.add_heading('7.4 Total Migration Estimate Summary', level=2)
-
-summary_data = [
-    ['Template & Block Development', '54-76', '11 templates, 24 blocks, custom components'],
-    ['Cross-Cutting Infrastructure', '35-52', 'Auth, search, recommendations, analytics, PDF, compliance'],
-    ['Content Migration & Import', '10-15', 'Import scripts, bulk migration, content QA'],
-    ['QA & Testing', '22-36', 'Comprehensive testing across all dimensions'],
-    ['Project Management & Buffer', '10-15', 'Coordination, documentation, contingency (15-20%)'],
-    ['', '', ''],
-    ['TOTAL ESTIMATE', '131-194 person-days', '(approx. 6.5-9.5 months with 1 developer, or 3-5 months with 2 developers)'],
-]
-
-add_table_with_style(doc,
-    ['Phase', 'Effort (person-days)', 'Scope'],
-    summary_data,
-    [3.5, 3.0, 10.0]
-)
-
-doc.add_paragraph('')
-doc.add_heading('7.5 Recommended Phasing', level=2)
-
-phase_data = [
-    ['Phase 1: Foundation\n(Weeks 1-4)', '20-30',
-     'Design system migration, global header/footer, HCP gate, authentication framework, EDS project setup.'],
-    ['Phase 2: Core Templates\n(Weeks 5-10)', '30-40',
-     'Homepage, medical area landing, product list/detail, article/column templates. Import infrastructure.'],
-    ['Phase 3: Content Migration\n(Weeks 11-14)', '15-25',
-     'Bulk content import for articles, product pages, facility case studies. PDF migration.'],
-    ['Phase 4: Advanced Features\n(Weeks 15-18)', '20-30',
-     'Interactive tools, search, recommendations, chatbot, seminar integration, webinar platform.'],
-    ['Phase 5: Integration & Testing\n(Weeks 19-22)', '20-30',
-     'SSO integration, analytics, consent management. Full QA cycle across all templates.'],
-    ['Phase 6: Launch Prep\n(Weeks 23-24)', '5-10',
-     'Final QA, performance optimization, redirect mapping, go-live preparation.'],
-]
-
-add_table_with_style(doc,
-    ['Phase', 'Effort (person-days)', 'Description'],
-    phase_data,
-    [3.5, 2.5, 10.5]
-)
-
-doc.add_page_break()
-
-# ============================================================
-# 8. APPENDIX: SCREENSHOTS
-# ============================================================
-doc.add_heading('8. Appendix: Additional Screenshots', level=1)
-
-appendix_screenshots = [
-    ('hematonco-landing.png', 'Medical Area Landing - Hematonco (Cancer/Blood)'),
-    ('allergy-landing.png', 'Medical Area Landing - Allergy/Immunology'),
-    ('neuro-landing.png', 'Medical Area Landing - Central Nervous System'),
-    ('raredisease-landing.png', 'Medical Area Landing - Rare Diseases'),
-    ('support-landing.png', 'Support Landing Page'),
-    ('drug-qa.png', 'Drug Q&A Page'),
-    ('drug-lot.png', 'Product Lot/Expiry Search'),
-    ('drug-code.png', 'Drug Price/Code Tables'),
-    ('drug-rmp.png', 'RMP Information Materials'),
-    ('news-list.png', 'News Listing Page'),
-    ('audio-lectures.png', 'Audio Lectures Page'),
-    ('medical-facilities.png', 'Medical Facility Case Studies'),
-    ('contact-page.png', 'Contact Page'),
-    ('sitemap-page.png', 'Sitemap Page'),
-    ('terms-page.png', 'Terms of Use Page'),
-    ('registration-page.png', 'Member Registration Form'),
-    ('external-confirm.png', 'External Link Confirmation'),
-]
-
-for filename, caption in appendix_screenshots:
-    filepath = f'/workspace/{filename}'
-    if not os.path.exists(filepath):
-        filepath_alt = f'/tmp/playwright/{filename}'
-        if os.path.exists(filepath_alt):
-            import shutil
-            shutil.copy2(filepath_alt, filepath)
-    add_screenshot(doc, filename, caption, 4.5)
-    doc.add_paragraph('')
-
-# ============================================================
-# SAVE DOCUMENT
-# ============================================================
-output_path = '/workspace/Kyowa_Kirin_Medical_Site_Analysis_Report.docx'
-doc.save(output_path)
-print(f'Report saved to: {output_path}')
-print(f'File size: {os.path.getsize(output_path) / 1024:.1f} KB')
+        doc.add_picture(filepath, width=Inches(width))
+        last_paragraph = doc.paragraphs[-1]
+        last_paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        cap = doc.add_paragraph(caption)
+        cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        for run in cap.runs:
+            run.italic = True
+            run.font.size = Pt(8)
+            run.font.color.rgb = RGBColor(128, 128, 128)
+
+def main():
+    doc = Document()
+
+    # Set default font
+    style = doc.styles['Normal']
+    font = style.font
+    font.name = 'Calibri'
+    font.size = Pt(10)
+
+    # ===================== COVER PAGE =====================
+    for _ in range(4):
+        doc.add_paragraph()
+
+    title = doc.add_paragraph()
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = title.add_run('LG Russia Website Analysis')
+    run.bold = True
+    run.font.size = Pt(28)
+    run.font.color.rgb = RGBColor(165, 0, 52)  # LG red
+
+    subtitle = doc.add_paragraph()
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = subtitle.add_run('Comprehensive Site Analysis & Migration Assessment')
+    run.font.size = Pt(16)
+    run.font.color.rgb = RGBColor(80, 80, 80)
+
+    doc.add_paragraph()
+
+    details = doc.add_paragraph()
+    details.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = details.add_run('Target Site: https://www.lg.com/ru\nDate: April 2026\nPrepared for: AEM Edge Delivery Services Migration')
+    run.font.size = Pt(11)
+    run.font.color.rgb = RGBColor(100, 100, 100)
+
+    doc.add_page_break()
+
+    # ===================== TABLE OF CONTENTS =====================
+    doc.add_heading('Table of Contents', level=1)
+    toc_items = [
+        '1. Executive Summary',
+        '2. Templates Inventory',
+        '3. Blocks / Components Catalog',
+        '4. Page Counts by Template',
+        '5. Integrations Analysis',
+        '6. Complex Use Cases & Observations',
+        '7. Migration Estimates',
+        '8. Appendix: Screenshots'
+    ]
+    for item in toc_items:
+        p = doc.add_paragraph(item)
+        p.paragraph_format.space_after = Pt(4)
+
+    doc.add_page_break()
+
+    # ===================== 1. EXECUTIVE SUMMARY =====================
+    doc.add_heading('1. Executive Summary', level=1)
+    doc.add_paragraph(
+        'This document provides a comprehensive analysis of the LG Russia website (www.lg.com/ru) '
+        'for migration to Adobe Experience Manager (AEM) Edge Delivery Services. The analysis covers '
+        'all page templates, reusable blocks/components, third-party integrations, complex use cases, '
+        'and migration effort estimates.'
+    )
+    doc.add_paragraph()
+
+    doc.add_heading('Key Findings', level=2)
+    findings = [
+        '12 distinct page templates identified across consumer and B2B sections',
+        '25 reusable blocks/components cataloged with complexity ratings',
+        '800+ press release articles represent the bulk of content pages',
+        '~500+ product detail pages across all categories',
+        '~45 category/subcategory listing pages',
+        'Heavy reliance on AJAX/dynamic content loading and lazy-loading patterns',
+        'Multiple third-party integrations including Akamai CDN, Boomerang RUM, Google Analytics',
+        'Russian social media integrations (VK, OK, Telegram, Yandex Zen)',
+        'Virtual Showroom uses panoramic 360-degree technology requiring special handling',
+        'B2B section operates as a semi-independent sub-site with different navigation and footer'
+    ]
+    for f in findings:
+        doc.add_paragraph(f, style='List Bullet')
+
+    doc.add_page_break()
+
+    # ===================== 2. TEMPLATES INVENTORY =====================
+    doc.add_heading('2. Templates Inventory', level=1)
+    doc.add_paragraph(
+        'The following table lists all unique page templates identified across the LG Russia website. '
+        'Each template serves a distinct purpose and has its own layout structure, component composition, and complexity level.'
+    )
+
+    templates = [
+        ['T01 - Homepage', 'Complex',
+         'Full-width hero carousel (7+ slides), product category cards, promotional banners, magazine articles grid, newsletter signup, support contact block, promotional campaign sections. Heavy JS with lazy-loading.',
+         'https://www.lg.com/ru'],
+        ['T02 - Product Category (PLP)', 'Complex',
+         'Filter sidebar (10+ filter groups with accordion), product card grid, sorting controls, pagination, "Most Viewed" carousel, FAQ accordion, comparison toolbar. AJAX-driven filtering.',
+         'https://www.lg.com/ru/televisions\nhttps://www.lg.com/ru/washing-machines\nhttps://www.lg.com/ru/monitors'],
+        ['T03 - Product Subcategory', 'Complex',
+         'Similar to PLP but with technology-specific hero banner at top, promotional content blocks between product listings, feature highlight sections, technology comparison tables.',
+         'https://www.lg.com/ru/oled-televisions\nhttps://www.lg.com/ru/qned-tvs\nhttps://www.lg.com/ru/ultragear-oled-monitors'],
+        ['T04 - Product Detail Page (PDP)', 'Complex',
+         'Product image gallery with zoom, model selector tabs, key specs summary, "Where to Buy" CTA, feature sections with full-width images, detailed specs accordion, comparison tool, related products carousel, support links.',
+         'https://www.lg.com/ru/televisions/lg-65ua75009la'],
+        ['T05 - Magazine Listing', 'Medium',
+         'Article card grid (3 columns), category badges (Tips, Events, Solutions, FAQ), "Load More" pagination, featured article hero at top. Custom CMS template separate from main site.',
+         'https://www.lg.com/ru/lg-magazine'],
+        ['T06 - Magazine Article', 'Medium',
+         'Article header with social sharing (VK, OK, Telegram), date, hero image, rich text body with table of contents sidebar, embedded product cards, related articles navigation (prev/next), tag links.',
+         'https://www.lg.com/ru/lg-magazine/how-to/televizory-lg-oled-evo-ai-2025-goda-obzor-i-sravneniye-seriy-g5-c5-i-b5'],
+        ['T07 - Press Center', 'Medium',
+         'Tabbed interface (Press Releases / Press About Us), article list with date, title, and excerpt, pagination (5 pages visible), bottom cards for press contacts and media gallery.',
+         'https://www.lg.com/ru/about-lg/press-and-media'],
+        ['T08 - Support Hub', 'Complex',
+         'Search bar with predictive suggestions, notification carousel, product category selector, 12-card support services grid, promotional banner cards (4), contact methods section (7 channels), floating action bar.',
+         'https://www.lg.com/ru/support'],
+        ['T09 - About LG / Corporate', 'Simple',
+         'Hero banner, 4 content cards (Brand, Career, Info Center, User Survey), footer navigation. Minimal interactivity.',
+         'https://www.lg.com/ru/about-lg\nhttps://www.lg.com/ru/about-lg/history\nhttps://www.lg.com/ru/about-lg/career'],
+        ['T10 - B2B Landing Page', 'Complex',
+         'Separate header/navigation from consumer site, hero carousel (5 slides), product mosaic tiles, category grid, contact section with B2B-specific phone/email, giveaway registration form with validation.',
+         'https://www.lg.com/ru/business'],
+        ['T11 - Landing / Campaign Pages', 'Medium',
+         'Full-width lifestyle sections, product showcase blocks, embedded video thumbnails, progressive scroll reveals, CTA buttons. Used for brand campaigns (LG AI, LG Signature, LG ThinQ).',
+         'https://www.lg.com/ru/lg-ai\nhttps://www.lg.com/ru/lg-signature\nhttps://www.lg.com/ru/lg-thinq'],
+        ['T12 - Virtual Showroom', 'Complex',
+         'Panoramic 360-degree room navigation, AR QR code, room selector (4 rooms), product simulator with filters, interactive product demos (drag-and-drop, temperature controls), product carousel.',
+         'https://www.lg.com/ru/virtualshowroom'],
+    ]
+
+    add_table_with_style(
+        doc,
+        ['Template ID & Name', 'Complexity', 'Description', 'Reference URL(s)'],
+        templates,
+        col_widths=[4.5, 2, 7, 5]
+    )
+
+    doc.add_paragraph()
+    add_screenshot(doc, '01-homepage-full.png', 'Figure 1: Homepage Template (T01)', 3.5)
+    doc.add_paragraph()
+    add_screenshot(doc, '02-category-plp.png', 'Figure 2: Product Category Listing (T02)', 3.5)
+
+    doc.add_page_break()
+    add_screenshot(doc, '08-product-detail-page.png', 'Figure 3: Product Detail Page (T04)', 3.5)
+    doc.add_paragraph()
+    add_screenshot(doc, '05-magazine-listing.png', 'Figure 4: Magazine Listing (T05)', 3.5)
+
+    doc.add_page_break()
+    add_screenshot(doc, '09-magazine-article.png', 'Figure 5: Magazine Article Detail (T06)', 3.5)
+    doc.add_paragraph()
+    add_screenshot(doc, '06-press-releases.png', 'Figure 6: Press Center (T07)', 3.5)
+
+    doc.add_page_break()
+    add_screenshot(doc, '04-support-page.png', 'Figure 7: Support Hub (T08)', 3.5)
+    doc.add_paragraph()
+    add_screenshot(doc, '07-business-page.png', 'Figure 8: B2B Landing Page (T10)', 3.5)
+
+    doc.add_page_break()
+
+    # ===================== 3. BLOCKS / COMPONENTS CATALOG =====================
+    doc.add_heading('3. Blocks / Components Catalog', level=1)
+    doc.add_paragraph(
+        'The following catalog identifies all reusable blocks and components across the LG Russia site. '
+        'Where the content model is the same but the visual layout differs, design variations of the same block are noted rather than separate blocks.'
+    )
+
+    blocks = [
+        ['B01 - Global Header', 'High',
+         'Mega-menu navigation with multi-level dropdowns, brand sub-links (LG Signature, ThinQ), B2B/Consumer toggle, global search with predictive suggestions. Sticky on scroll. Different variant for B2B section.',
+         'All pages'],
+        ['B02 - Global Footer', 'Medium',
+         'Multi-column sitemap links, social media icons (VK, OK, Telegram, YouTube, Yandex Zen), region/language selector, legal links, copyright. B2B variant has different link structure.',
+         'All pages'],
+        ['B03 - Hero Carousel', 'High',
+         'Full-width image carousel with auto-play, pause/play controls, dot navigation, prev/next arrows. Supports responsive images (desktop/mobile variants). 5-7 slides typical. Multiple design variations: homepage (full-bleed), PLP (with text overlay), B2B (with CTA buttons).',
+         'https://www.lg.com/ru\nhttps://www.lg.com/ru/business'],
+        ['B04 - Product Card', 'High',
+         '"New" badge, product image with size tabs, model name with copy button, key specs bullets (3-4), "Add to Cart" CTA, "Where to Buy" link, comparison checkbox, social share buttons (VK, OK, copy URL). Lazy-loaded.',
+         'https://www.lg.com/ru/televisions\nhttps://www.lg.com/ru/monitors'],
+        ['B05 - Filter Sidebar', 'High',
+         'Accordion-style filter groups (10+ categories: type, screen size, resolution, gaming features, year, OS, refresh rate). Multi-select checkboxes, "Clear All" reset, live result count update. AJAX-driven.',
+         'https://www.lg.com/ru/televisions\nhttps://www.lg.com/ru/washing-machines'],
+        ['B06 - Product Image Gallery', 'High',
+         'Main product image with zoom on hover, thumbnail strip navigation, size variant switcher tabs, 360-degree view toggle where available. Multiple image formats.',
+         'All PDP pages'],
+        ['B07 - Specs Accordion', 'Medium',
+         'Expandable sections for detailed product specifications. Organized by category (General, Display, Audio, Connectivity, etc.). "Show All" toggle.',
+         'All PDP pages'],
+        ['B08 - Comparison Tool', 'High',
+         'Floating bottom toolbar showing selected products count. Max product limit per category. Side-by-side spec comparison page. Add/remove products dynamically.',
+         'All PLP/PDP pages'],
+        ['B09 - Magazine Article Card', 'Low',
+         'Thumbnail image (1280x960), category badge (color-coded: Tips=green, Events=blue, Solutions=purple), headline, excerpt, "Read More" link. Grid layout (3 columns).',
+         'https://www.lg.com/ru/lg-magazine'],
+        ['B10 - Notification Banner', 'Low',
+         'Dismissible top banner with promo text and CTA button. Used for Virtual Showroom promo, cookie consent, browser compatibility warnings.',
+         'Multiple pages'],
+        ['B11 - Breadcrumb Navigation', 'Low',
+         'Hierarchical path with slash separators. Links to parent pages. Bold current page.',
+         'All interior pages'],
+        ['B12 - Pagination', 'Low',
+         'Numbered page buttons, Previous/Next controls, "Show More" variant for magazine. Two design variants: numbered (PLP, Press) and "Load More" (Magazine).',
+         'PLP, Press, Magazine pages'],
+        ['B13 - Social Share Bar', 'Low',
+         'VKontakte, Odnoklassniki, Telegram share icons. Horizontal layout on article pages. Product card variant includes URL copy.',
+         'Magazine articles, PDP pages'],
+        ['B14 - Support Services Grid', 'Medium',
+         '12 service cards in 2-column grid. Each has icon, title, description. Links to specific support functions (manuals, firmware, chat, repair, warranty, etc.).',
+         'https://www.lg.com/ru/support'],
+        ['B15 - Contact Methods Block', 'Medium',
+         '7 contact channels with icons: Chat & Email, Phone, Survey, Telegram, Viber, WhatsApp, CEO Feedback. Horizontal layout.',
+         'https://www.lg.com/ru/support'],
+        ['B16 - Where to Buy Section', 'Medium',
+         'Retailer links/buttons, store locator integration, online purchase options. Appears on PDP pages.',
+         'All PDP pages'],
+        ['B17 - FAQ Accordion', 'Low',
+         'Expandable Q&A pairs. Used at bottom of category pages. Schema.org FAQ markup for SEO.',
+         'Category listing pages'],
+        ['B18 - Newsletter / Giveaway Form', 'Medium',
+         'Email input, name field, phone field with validation, consent checkboxes (contest rules, privacy, data processing, marketing). Submit button with success/error messaging.',
+         'Homepage, B2B landing'],
+        ['B19 - Product Mosaic Grid', 'Medium',
+         'Category tiles with product image, name, description, and hover interaction. "move" indicator for interactive tiles. Used on B2B landing and homepage.',
+         'https://www.lg.com/ru/business'],
+        ['B20 - Table of Contents Sidebar', 'Low',
+         'Sticky sidebar with anchor links to article sections. Collapsible with "Expand" button. Appears on long-form magazine articles.',
+         'Magazine article pages'],
+        ['B21 - Related Products Carousel', 'Medium',
+         'Horizontal scrolling product cards with left/right arrows. "Most Viewed" variant on PLP. "Related Models" variant on Magazine articles.',
+         'PLP and Magazine article pages'],
+        ['B22 - Promotional Banner Cards', 'Medium',
+         '2x2 grid of large image cards with overlay text and CTA. Used for featured content like accessories, fraud warnings, branded service.',
+         'https://www.lg.com/ru/support'],
+        ['B23 - Video Thumbnail Grid', 'Medium',
+         'YouTube video preview thumbnails in grid layout. Click to play in modal or new tab. Used on landing pages (LG AI, LG Signature).',
+         'https://www.lg.com/ru/lg-ai\nhttps://www.lg.com/ru/lg-signature'],
+        ['B24 - Floating Action Bar', 'Medium',
+         'Fixed right-side panel with quick-access buttons: Contact, Email, Chat, Survey, Recently Viewed (with counter). Collapsible.',
+         'Support and product pages'],
+        ['B25 - Cookie Consent Banner', 'Low',
+         'Bottom overlay with accept/decline options and cookie preferences link. e-privacy implementation.',
+         'All pages (first visit)'],
+    ]
+
+    add_table_with_style(
+        doc,
+        ['Block ID & Name', 'Complexity', 'Description & Functionality', 'Reference URL(s)'],
+        blocks,
+        col_widths=[4, 2, 8, 4.5]
+    )
+
+    doc.add_page_break()
+
+    # ===================== 4. PAGE COUNTS BY TEMPLATE =====================
+    doc.add_heading('4. Page Counts by Template', level=1)
+    doc.add_paragraph(
+        'The following table provides estimated page counts for each template type, along with '
+        'migration feasibility assessment. Counts are based on sitemap analysis, navigation structure, '
+        'and crawl sampling.'
+    )
+
+    page_counts = [
+        ['T01 - Homepage', '1', 'Manual', 'High customization, complex carousel logic, multiple promotional blocks with campaign-specific content. Requires careful block mapping.'],
+        ['T02 - Product Category (PLP)', '~15', 'Semi-Automatic', 'Standardized template but heavy AJAX filtering needs reimplementation. Product data feeds must be mapped. Filter logic is complex.'],
+        ['T03 - Product Subcategory', '~30', 'Semi-Automatic', 'Similar to PLP but with technology-specific marketing content that varies per subcategory. Hero banners need manual curation.'],
+        ['T04 - Product Detail Page (PDP)', '~500+', 'Automatic (structure) / Manual (content)', 'Product data can be bulk-imported from PIM/feed. But interactive features (gallery, comparison, specs accordion) need EDS block development.'],
+        ['T05 - Magazine Listing', '1', 'Manual', 'Custom CMS integration. Article data aggregation and category filtering need reimplementation.'],
+        ['T06 - Magazine Article', '~60-80', 'Semi-Automatic', 'Rich text content can be migrated. But embedded product cards, table of contents, and related articles logic need manual configuration.'],
+        ['T07 - Press Center', '1 (hub) + 800+ articles', 'Automatic (articles) / Manual (hub)', 'Press release articles are standardized text content ideal for bulk import. Hub page pagination/tabs need manual setup.'],
+        ['T08 - Support Hub', '~15', 'Manual', 'Multiple interactive components (search, repair request, service center locator) require integration work. Sub-pages (manuals, warranty, etc.) are moderately complex.'],
+        ['T09 - About / Corporate', '~5', 'Semi-Automatic', 'Mostly static content pages with simple layout. Minor interactive elements (survey link).'],
+        ['T10 - B2B Landing Page', '~20', 'Manual', 'Separate navigation, different footer, B2B-specific product categories. Giveaway form with validation. Requires dedicated block variants.'],
+        ['T11 - Landing / Campaign', '~5-8', 'Manual', 'Highly visual, custom layouts per campaign. Progressive scroll reveals, video integration. Each page is unique.'],
+        ['T12 - Virtual Showroom', '1', 'Manual (Complex)', 'Panoramic 360-degree technology, AR integration, interactive product demos. Most complex page requires custom WebGL/iframe solution.'],
+    ]
+
+    add_table_with_style(
+        doc,
+        ['Template', 'Est. Page Count', 'Migration Type', 'Notes / Rationale'],
+        page_counts,
+        col_widths=[4, 2.5, 3, 9]
+    )
+
+    doc.add_paragraph()
+    doc.add_heading('Summary Totals', level=2)
+
+    summary_counts = [
+        ['Automatic Migration (bulk import)', '~800+', 'Press releases, standardized article content'],
+        ['Semi-Automatic (template + manual review)', '~600+', 'PDPs, magazine articles, subcategories, corporate pages'],
+        ['Manual Migration (custom development)', '~50-70', 'Homepage, support hub, B2B, campaign pages, virtual showroom'],
+        ['TOTAL ESTIMATED PAGES', '~1,450-1,500+', 'All content across consumer and B2B sections'],
+    ]
+
+    add_table_with_style(
+        doc,
+        ['Migration Category', 'Est. Pages', 'Includes'],
+        summary_counts,
+        col_widths=[5, 3, 10]
+    )
+
+    doc.add_page_break()
+
+    # ===================== 5. INTEGRATIONS ANALYSIS =====================
+    doc.add_heading('5. Integrations Analysis', level=1)
+    doc.add_paragraph(
+        'The following table documents all third-party integrations and embedded services identified on the LG Russia website.'
+    )
+
+    integrations = [
+        ['Akamai CDN', 'CDN / Infrastructure', 'Medium',
+         'Content delivery network for static assets (images, JS, CSS). Edge server endpoints detected. Needs CDN reconfiguration for EDS.',
+         'All pages'],
+        ['Boomerang Real User Monitoring (RUM)', 'API / Analytics', 'Medium',
+         'Client-side performance monitoring with API key. Tracks page load metrics, network performance, user experience scores.',
+         'All pages'],
+        ['Google Tag Manager / Analytics', 'Embed / Analytics', 'Low',
+         'dataLayer implementation with custom variables: pageType, siteType (B2C/B2B), category hierarchy, product data. Standard GTM container.',
+         'All pages'],
+        ['VKontakte (VK) Social API', 'API / Social', 'Low',
+         'Share functionality via VK API. Social media links in footer. Used for product sharing and article distribution.',
+         'Product cards, magazine articles, footer'],
+        ['Odnoklassniki (OK) Social API', 'API / Social', 'Low',
+         'Share functionality via OK API. Social sharing on articles and products.',
+         'Product cards, magazine articles, footer'],
+        ['Telegram Integration', 'API / Messaging', 'Low',
+         'Share links, chatbot integration (LG_Electronics_RUS_bot), channel links. Multiple touchpoints across support and sharing.',
+         'Footer, support page, article sharing'],
+        ['WhatsApp Business API', 'API / Messaging', 'Low',
+         'Direct messaging link for customer support channel. No embedded widget, simple URL redirect.',
+         'https://www.lg.com/ru/support'],
+        ['Viber Messaging', 'API / Messaging', 'Low',
+         'Deep link protocol for customer support channel.',
+         'https://www.lg.com/ru/support'],
+        ['Yandex Zen', 'Embed / Social', 'Low',
+         'Content syndication channel link. Footer social media link.',
+         'Footer on all pages'],
+        ['YouTube', 'Embed / Video', 'Low',
+         'Channel link. Video thumbnails on landing pages. No inline video embeds detected on main content pages.',
+         'Footer, LG AI landing page'],
+        ['e-Privacy / Cookie Consent', 'Embed / Compliance', 'Medium',
+         'Cookie preference management via e-privacy.min.js. Consent banner with accept/decline. Required for GDPR/Russian data protection compliance.',
+         'All pages'],
+        ['Schema.org Structured Data', 'Custom Code / SEO', 'Medium',
+         'Corporation, WebSite, SearchAction, Product, FAQ schema markup. JSON-LD implementation for search engine optimization.',
+         'Homepage, PDP, category pages'],
+        ['LG Account System', 'API / Authentication', 'High',
+         'User authentication for wishlist, recently viewed products, repair requests, inquiry tracking. getAccessToken API calls detected on every page.',
+         'All pages (header account link)'],
+        ['Product Comparison API', 'API / Custom', 'High',
+         'Internal API for dynamic product comparison. Manages product selection across category pages. Session-based state.',
+         'All PLP/PDP pages'],
+        ['Service Center Locator', 'API / Custom', 'High',
+         'Geolocation-based service center finder. Interactive map integration with address/phone details. Repair request submission system.',
+         'https://www.lg.com/ru/support/locate-repair-center'],
+        ['Virtual Showroom Engine', 'Embed / Custom', 'High',
+         'Panoramic 360-degree navigation engine using static JPG panoramas. AR capability via QR codes. Interactive product demos.',
+         'https://www.lg.com/ru/virtualshowroom'],
+        ['LG Ethics Hotline', 'Embed / External', 'Low',
+         'External link to ethics.lg.co.kr for Jeong-Do Management compliance reporting.',
+         'Footer on all pages'],
+    ]
+
+    add_table_with_style(
+        doc,
+        ['Integration Name', 'Type', 'Complexity', 'Description', 'Reference URL(s)'],
+        integrations,
+        col_widths=[3.5, 2.5, 2, 7, 3.5]
+    )
+
+    doc.add_page_break()
+
+    # ===================== 6. COMPLEX USE CASES =====================
+    doc.add_heading('6. Complex Use Cases & Observations', level=1)
+    doc.add_paragraph(
+        'The following section identifies complex behaviors, edge cases, and functionality that require special attention during migration.'
+    )
+
+    complex_cases = [
+        ['AJAX Product Filtering & Sorting', '~45 pages (all PLP/subcategory)', 'Product listing pages',
+         'Real-time filter application via URL parameters, AJAX-driven product list updates without full page reload. 10+ filter categories with multi-select. IntersectionObserver-based lazy loading. Requires complete reimplementation as EDS blocks or client-side JS solution.',
+         'Critical path - core shopping experience'],
+        ['Product Comparison Tool', '~45+ pages (all PLP/PDP)', 'PLP and PDP pages',
+         'Cross-page product selection persistence, floating comparison toolbar, side-by-side specification comparison view. Category-limited selections. Session-based state management.',
+         'Needs custom EDS block with local storage or session management'],
+        ['Virtual Showroom 360-degree Experience', '1 page (4 rooms)', 'https://www.lg.com/ru/virtualshowroom',
+         'Panoramic navigation, AR QR codes for mobile, interactive product demos (washing machine fabric selection, AC temperature controls, refrigerator learning mode). Custom rendering engine.',
+         'Most complex page. Consider iframe embed or progressive web app approach.'],
+        ['B2B Sub-site Architecture', '~20+ pages', 'https://www.lg.com/ru/business/*',
+         'Completely different header/navigation/footer from consumer site. Separate product catalog (commercial displays, HVAC, laundry equipment). "Inquiry to Buy" flow instead of "Where to Buy". Different support phone numbers and contact channels.',
+         'Requires separate EDS template set or conditional rendering logic'],
+        ['Magazine CMS Platform', '~60-80 articles + hub', 'https://www.lg.com/ru/lg-magazine/*',
+         'Separate CMS from main site (different JS framework). Custom category system (Tips, Events, Solutions, FAQ). Table of contents generation, embedded product cards, prev/next navigation. Tags system.',
+         'Content can be migrated but CMS features need EDS-native reimplementation'],
+        ['User Account & Session Management', 'All pages (~1500)', 'Site-wide',
+         'getAccessToken calls on every page load. Recently viewed products tracking, wishlist functionality, repair request status tracking, inquiry status checking. Session-dependent features.',
+         'OAuth/token integration required. Consider which features to maintain vs. simplify.'],
+        ['Support Portal Interactive Features', '~15 pages', 'https://www.lg.com/ru/support/*',
+         'Predictive search for model numbers, repair request submission forms, service center geolocation, warranty lookup, firmware download by model. Multiple API endpoints.',
+         'High integration complexity. Each support sub-feature needs separate API mapping.'],
+        ['Responsive Image Strategy', 'All pages', 'Site-wide',
+         'Different image sources for desktop vs. mobile breakpoints. Akamai image optimization. Product images with multiple size variants. Lazy-loading via IntersectionObserver.',
+         'EDS image optimization pipeline needed. Ensure CDN compatibility.'],
+        ['Multi-channel Messaging Support', '~15 pages', 'Support section',
+         'WhatsApp, Telegram (bot), Viber deep links. Online chat widget. Multiple contact channels with conditional display based on business hours (8:00-22:00, 365 days).',
+         'Deep links are simple but chat/bot integrations may need platform-specific setup'],
+        ['Giveaway / Registration Forms', '~2 pages', 'Homepage, B2B landing',
+         'Form with name, phone, email validation. Contest rules acceptance. Privacy/data consent checkboxes. Success/error/duplicate subscriber messaging. Currently "inactive" state handling.',
+         'Form block with validation and API submission needed. Russian data protection compliance.'],
+    ]
+
+    add_table_with_style(
+        doc,
+        ['Use Case', 'Instances / Scope', 'Where Found', 'Description', 'Why Complex / Migration Impact'],
+        complex_cases,
+        col_widths=[3.5, 2.5, 3, 5, 4.5]
+    )
+
+    doc.add_page_break()
+
+    # ===================== 7. MIGRATION ESTIMATES =====================
+    doc.add_heading('7. Migration Estimates', level=1)
+    doc.add_paragraph(
+        'The following estimates cover the full migration of lg.com/ru to AEM Edge Delivery Services. '
+        'Estimates assume a team of 2-3 EDS developers, 1 content migration specialist, and 1 QA engineer.'
+    )
+
+    doc.add_heading('7.1 Effort Breakdown by Phase', level=2)
+
+    effort = [
+        ['Phase 1: Discovery & Design System', '', '', ''],
+        ['  Design token extraction (colors, fonts, spacing)', '2-3 days', 'Semi-Automatic', 'Extract CSS custom properties from existing site'],
+        ['  Template architecture design', '3-4 days', 'Manual', 'Map 12 templates to EDS page structures'],
+        ['  Block specification & design', '4-5 days', 'Manual', 'Define 25 block specs with content models'],
+        ['', '', '', ''],
+        ['Phase 2: Block Development', '', '', ''],
+        ['  Global Header (incl. mega-menu)', '4-5 days', 'Manual', 'Complex mega-menu with B2B variant'],
+        ['  Global Footer (2 variants)', '1-2 days', 'Manual', 'Consumer + B2B variants'],
+        ['  Hero Carousel (3 variants)', '3-4 days', 'Manual', 'Auto-play, responsive images, multiple layouts'],
+        ['  Product Card block', '3-4 days', 'Manual', 'Multiple states, lazy loading, comparison checkbox'],
+        ['  Filter Sidebar block', '5-7 days', 'Manual', 'Most complex block with AJAX filtering, multi-select'],
+        ['  Product Image Gallery', '3-4 days', 'Manual', 'Zoom, thumbnails, variant switcher'],
+        ['  Specs Accordion', '1-2 days', 'Manual', 'Expandable sections with schema'],
+        ['  Comparison Tool', '4-5 days', 'Manual', 'Cross-page state, floating toolbar'],
+        ['  Magazine Article Card', '1 day', 'Manual', 'Simple card with category badge'],
+        ['  Support Services Grid', '1-2 days', 'Manual', 'Icon cards with links'],
+        ['  Contact Methods Block', '1 day', 'Manual', 'Multi-channel contact display'],
+        ['  FAQ Accordion', '1 day', 'Manual', 'Schema.org FAQ markup'],
+        ['  Newsletter / Form blocks', '2-3 days', 'Manual', 'Validation, consent, API submission'],
+        ['  Remaining blocks (10+)', '8-10 days', 'Manual', 'Pagination, breadcrumbs, ToC sidebar, etc.'],
+        ['', '', '', ''],
+        ['Phase 3: Content Migration', '', '', ''],
+        ['  Press releases (~800 articles)', '3-5 days', 'Automatic', 'Bulk import of standardized content'],
+        ['  Magazine articles (~60-80)', '3-4 days', 'Semi-Automatic', 'Content import + manual review of embedded products'],
+        ['  Product pages (~500+)', '5-7 days', 'Semi-Automatic', 'PIM data mapping + template application'],
+        ['  Category/subcategory pages (~45)', '3-4 days', 'Semi-Automatic', 'Template + manual hero/promo content'],
+        ['  Support pages (~15)', '3-4 days', 'Manual', 'API integration mapping required'],
+        ['  About/Corporate (~5)', '1-2 days', 'Manual', 'Simple content migration'],
+        ['  B2B section (~20)', '3-4 days', 'Manual', 'Separate template set, product data'],
+        ['  Campaign/Landing pages (~5-8)', '3-5 days', 'Manual', 'Custom layouts per page'],
+        ['  Virtual Showroom', '5-7 days', 'Manual', 'Custom 360-degree solution development'],
+        ['  Homepage', '2-3 days', 'Manual', 'Complex assembly of multiple blocks'],
+        ['', '', '', ''],
+        ['Phase 4: Integration Setup', '', '', ''],
+        ['  Analytics (GTM/Boomerang)', '2-3 days', 'Manual', 'Tag configuration and dataLayer mapping'],
+        ['  Social media integrations', '1-2 days', 'Manual', 'VK, OK, Telegram share APIs'],
+        ['  User authentication', '3-5 days', 'Manual', 'Account system, session management'],
+        ['  Support APIs (search, repair, locator)', '5-7 days', 'Manual', 'Multiple API endpoints'],
+        ['  Cookie consent / e-privacy', '1-2 days', 'Manual', 'Consent management setup'],
+        ['', '', '', ''],
+        ['Phase 5: QA & Testing', '', '', ''],
+        ['  Template/block visual QA', '5-7 days', 'Manual', 'Cross-browser, responsive testing'],
+        ['  Content validation', '3-5 days', 'Semi-Automatic', 'Spot-check migrated content accuracy'],
+        ['  Integration testing', '3-4 days', 'Manual', 'API endpoints, analytics verification'],
+        ['  Performance testing', '2-3 days', 'Manual', 'Lighthouse, Core Web Vitals'],
+        ['  UAT support', '3-5 days', 'Manual', 'Stakeholder review and feedback cycles'],
+    ]
+
+    add_table_with_style(
+        doc,
+        ['Task / Activity', 'Estimated Duration', 'Migration Type', 'Notes'],
+        effort,
+        col_widths=[6, 3, 3, 6.5]
+    )
+
+    doc.add_paragraph()
+    doc.add_heading('7.2 Total Estimated Schedule', level=2)
+
+    schedule = [
+        ['Phase 1: Discovery & Design System', '2 weeks', '80-96 hrs'],
+        ['Phase 2: Block Development', '6-8 weeks', '320-480 hrs'],
+        ['Phase 3: Content Migration', '4-5 weeks', '200-280 hrs'],
+        ['Phase 4: Integration Setup', '2-3 weeks', '96-152 hrs'],
+        ['Phase 5: QA & Testing', '3-4 weeks', '128-192 hrs'],
+        ['Buffer / Contingency (15%)', '2-3 weeks', '120-180 hrs'],
+        ['TOTAL', '19-26 weeks (~5-6 months)', '944-1,380 hrs'],
+    ]
+
+    add_table_with_style(
+        doc,
+        ['Phase', 'Duration', 'Estimated Hours'],
+        schedule,
+        col_widths=[7, 5, 5]
+    )
+
+    doc.add_paragraph()
+    doc.add_heading('7.3 Cost Estimate Assumptions', level=2)
+    doc.add_paragraph(
+        'The following cost assumptions are based on typical AEM Edge Delivery Services implementation rates:'
+    )
+    cost_items = [
+        'Team size: 2-3 EDS developers, 1 content specialist, 1 QA engineer',
+        'Parallel execution: Phases 2-4 can overlap with phased content migration',
+        'With parallel execution, wall-clock time reduces to approximately 14-18 weeks',
+        'Key risks: Virtual Showroom complexity, product data feed availability, API documentation access',
+        'Recommendation: Phase the migration starting with Magazine/Press (quick wins), then Categories/PDPs, then complex pages last',
+    ]
+    for item in cost_items:
+        doc.add_paragraph(item, style='List Bullet')
+
+    doc.add_page_break()
+
+    doc.add_heading('7.4 Recommended Migration Approach', level=2)
+
+    approach = [
+        ['Wave 1 (Weeks 1-6)', 'Foundation + Quick Wins',
+         'Design system extraction, global header/footer blocks, press release bulk import (~800 pages), magazine content migration (~80 pages). Delivers ~880 pages.'],
+        ['Wave 2 (Weeks 5-12)', 'Product Experience',
+         'Product card, filter sidebar, PDP blocks, product data import (~500 PDPs), category/subcategory pages (~45). Core shopping experience. Delivers ~545 pages.'],
+        ['Wave 3 (Weeks 10-16)', 'Support & Integrations',
+         'Support hub blocks, API integrations (search, repair, locator), user account features, B2B section (~20 pages). Delivers ~35 pages.'],
+        ['Wave 4 (Weeks 14-20)', 'Premium & Custom',
+         'Campaign landing pages, Virtual Showroom, LG Signature/AI/ThinQ brand pages, homepage. Delivers ~15 pages.'],
+        ['Wave 5 (Weeks 18-22)', 'QA, UAT & Launch',
+         'Comprehensive testing, stakeholder review, performance optimization, analytics verification, go-live preparation.'],
+    ]
+
+    add_table_with_style(
+        doc,
+        ['Wave / Timeline', 'Focus Area', 'Scope & Deliverables'],
+        approach,
+        col_widths=[3.5, 3.5, 11.5]
+    )
+
+    doc.add_page_break()
+
+    # ===================== 8. APPENDIX =====================
+    doc.add_heading('8. Appendix: Additional Screenshots', level=1)
+
+    add_screenshot(doc, '01-homepage.png', 'Figure A1: Homepage - Above the Fold', 5)
+    doc.add_paragraph()
+    add_screenshot(doc, '03-subcategory-plp.png', 'Figure A2: Subcategory Page (OLED TVs) with Tech Marketing Content', 3.5)
+
+    # Save
+    output_path = '/workspace/LG_Russia_Site_Analysis_Report.docx'
+    doc.save(output_path)
+    print(f'Report saved to: {output_path}')
+    print(f'File size: {os.path.getsize(output_path) / 1024:.1f} KB')
+
+if __name__ == '__main__':
+    main()
