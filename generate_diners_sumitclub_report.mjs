@@ -443,23 +443,23 @@ children.push(P('Diners split: ≈ 1,556 automated (88%) · ≈ 209 manual / ass
 
 children.push(H2('3.2  TRUST CLUB (sumitclub.jp) — 439 pages'));
 children.push(buildTable(
-  ['Template / Section', 'Pages', 'Migration Mode', 'Basis'],
+  ['Template / Section', 'Pages', 'Migration Mode', 'Basis', 'URL pattern'],
   [
-    ['T6 Notice', '104', 'Automated', 'Dated text articles'],
-    ['T9 Login / Member area', '41', 'Manual / Out-of-scope', 'iframe / external auth system'],
-    ['T4 Travel', '63', 'Automated', 'Service detail'],
-    ['T9/T4 Usage / Guides', '46', 'Mixed', 'Some external links/forms'],
-    ['T2/T3 Card Lineup & Detail', '21', 'Manual / Assisted', 'Spec/fee tables, application'],
-    ['T4 Point', '15', 'Automated', 'Service detail'],
-    ['T4 Insurance', '12', 'Automated', 'Service detail'],
-    ['T7 Legal / Policy', '12', 'Automated', 'Plain rich text'],
-    ['T1/T4 Entertainment', '7', 'Automated', 'Service detail'],
-    ['T9 Campaign', '5', 'Manual / Assisted', 'Bespoke LP'],
-    ['T9 Contact', '3', 'Manual', 'iframe form wrappers'],
-    ['T1 Home + Gourmet + misc', '23', 'Mixed', 'Homepage bespoke; rest auto'],
-    ['T10 Corporate sub-site (ja+en)', '87', 'Automated', 'Standard editorial/landing'],
+    ['T6 Notice', '104', 'Automated', 'Dated text articles', '/ja/notice/** (e.g. inf_YYYYMMDD.html)'],
+    ['T9 Login / Member area', '41', 'Manual / Out-of-scope', 'iframe / external auth system', '/ja/loginPage/**, /ja/loginPage.html'],
+    ['T4 Travel', '63', 'Automated', 'Service detail', '/ja/travel/**'],
+    ['T9/T4 Usage / Guides', '46', 'Mixed', 'Some external links/forms', '/ja/usage/**'],
+    ['T2/T3 Card Lineup & Detail', '21', 'Manual / Assisted', 'Spec/fee tables, application', '/ja/cardlineup/**'],
+    ['T4 Point', '15', 'Automated', 'Service detail', '/ja/point/**'],
+    ['T4 Insurance', '12', 'Automated', 'Service detail', '/ja/insurance/**'],
+    ['T7 Legal / Policy', '12', 'Automated', 'Plain rich text', '/ja/privacy*.html, /ja/tc.html, /ja/smallprint*, /ja/cnasp.html, /ja/aasfp.html'],
+    ['T1/T4 Entertainment', '7', 'Automated', 'Service detail', '/ja/entertainment/**'],
+    ['T9 Campaign', '5', 'Manual / Assisted', 'Bespoke LP', '/ja/campaign/**, /ja/campaign.html'],
+    ['T9 Contact', '3', 'Manual', 'iframe form wrappers', '/ja/contact.html, /ja/contact_form.html, /ja/contact/**'],
+    ['T1 Home + Gourmet + misc', '23', 'Mixed', 'Homepage bespoke; rest auto', '/ja/index.html, /ja/gourmet/**, /ja/*.html (top-level)'],
+    ['T10 Corporate sub-site (ja+en)', '87', 'Automated', 'Standard editorial/landing', '/corporate/**, /ja/corporate_site/**, /en/**'],
   ],
-  [40, 12, 24, 24],
+  [24, 8, 16, 24, 28],
   { centerCols: [1, 2], boldFirst: true }
 ));
 children.push(P('TRUST CLUB split: ≈ 373 automated (85%) · ≈ 66 manual / assisted / out-of-scope (15%).', { bold: true, before: 60 }));
