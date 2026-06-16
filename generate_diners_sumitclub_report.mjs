@@ -416,7 +416,38 @@ children.push(new Paragraph({ children: [new PageBreak()] }));
 children.push(H1('3. Page Counts by Template'));
 children.push(P('Counts are derived from the live XML sitemaps (diners.co.jp = 1,765 URLs; sumitclub.jp = 352 main + 87 corporate = 439 URLs). Migration mode reflects structural uniformity: uniform, content-driven pages are parser-automatable; pages with bespoke layout, heavy interactivity or external integrations need manual / assisted work.'));
 
-children.push(H2('3.1  Diners Club (diners.co.jp) — 1,765 pages'));
+children.push(H2('3.1  Migration mode definitions'));
+children.push(P('Each row in the tables below is classified by how the page can be moved into Edge Delivery Services. The classification is driven by one question: how much human judgement is needed per page once the block library and parsers exist? The four modes are defined below, with the reasoning for when each applies.', { after: 80 }));
+children.push(buildTable(
+  ['Migration Mode', 'What it means', 'Why a page lands here', 'Per-page human effort'],
+  [
+    ['Automated',
+      'The page is imported end-to-end by the bulk import pipeline (block parsers + page transformers). A human only spot-checks a sample, not every page.',
+      'Pages share one repeating structure with no per-page logic: a parser written once recognises the same blocks across hundreds of pages. Content is static text/image/link markup. Highest-volume groups (Magazine, Benefit, Notice/Press) qualify because every page is built the same way.',
+      'Near-zero (sampling QA only)'],
+    ['Assisted',
+      'Mostly automated, but a person reviews and finishes each page after import — fixing a table, re-linking a CTA, confirming a data-driven block rendered correctly.',
+      'The structure is recognisable to a parser, but the page carries elements the parser cannot fully resolve on its own: complex spec/fee tables, comparison layouts, application CTAs, or blocks fed by JSON/XML feeds. Import does 70–90% of the work; a human closes the gap.',
+      'Low–moderate (review + touch-up each page)'],
+    ['Manual',
+      'The page is rebuilt by hand in the EDS authoring model; the importer is not relied on for layout.',
+      'Layout is bespoke or one-off (homepages, hero-heavy section landings, campaign LPs) where each page is unique, so there is no repeating pattern for a parser to exploit. Also applies to pages that are thin wrappers around an external system (iframe forms) — the wrapper is recreated by hand and the embed re-pointed.',
+      'High (full rebuild per page)'],
+    ['Mixed',
+      'The group contains a blend: most pages are Automated, but a minority within the same URL tree need Manual/Assisted handling. Reported as one row because they live under one section.',
+      'Used where a section is mostly uniform but contains exceptions — e.g. Usage/Guides is largely static (Automated) but the 3-D Secure / registration sub-pages are interactive (Manual). Splitting them into separate rows would overstate precision; "Mixed" flags that the section needs triage before batch import.',
+      'Mostly low, with a manual subset'],
+    ['Out-of-scope',
+      'Not migrated as CMS content. Only a link or wrapper is preserved; the underlying system stays where it is (or is re-platformed as a separate project).',
+      'The "pages" are screens of an external application — the Club Online member area and the secured login tree. These are authenticated, dynamic application flows, not editable content, so they fall outside a content migration entirely.',
+      'N/A (excluded; link-out only)'],
+  ],
+  [16, 26, 42, 16],
+  { boldFirst: true }
+));
+children.push(P('Note on terminology: "Manual / Assisted" in the section tables denotes a group that needs human work on every page, spanning the Assisted-to-Manual range depending on the individual page; "Manual / Out-of-scope" denotes wrapper pages that are rebuilt by hand while the underlying flow is excluded.', { italics: true, size: 18, before: 40, after: 120 }));
+
+children.push(H2('3.2  Diners Club (diners.co.jp) — 1,765 pages'));
 children.push(buildTable(
   ['Template / Section', 'Pages', 'Migration Mode', 'Basis', 'URL pattern'],
   [
@@ -441,7 +472,7 @@ children.push(buildTable(
 ));
 children.push(P('Diners split: ≈ 1,556 automated (88%) · ≈ 209 manual / assisted (12%).', { bold: true, before: 60 }));
 
-children.push(H2('3.2  TRUST CLUB (sumitclub.jp) — 439 pages'));
+children.push(H2('3.3  TRUST CLUB (sumitclub.jp) — 439 pages'));
 children.push(buildTable(
   ['Template / Section', 'Pages', 'Migration Mode', 'Basis', 'URL pattern'],
   [
@@ -464,7 +495,7 @@ children.push(buildTable(
 ));
 children.push(P('TRUST CLUB split: ≈ 373 automated (85%) · ≈ 66 manual / assisted / out-of-scope (15%).', { bold: true, before: 60 }));
 
-children.push(H2('3.3  Combined totals'));
+children.push(H2('3.4  Combined totals'));
 children.push(buildTable(
   ['Migration Mode', 'Diners', 'TRUST CLUB', 'Combined', 'Share'],
   [
