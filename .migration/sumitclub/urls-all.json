@@ -1,0 +1,1333 @@
+{
+  "analysis-urls-all": {
+    "captured": "2026-06-16T07:18:49.738Z",
+    "totalUrls": 439,
+    "totalDocuments": 0,
+    "method": "sitemap",
+    "sitemapURL": "/sitemap.xml,/ja/Sitemap.xml",
+    "robotsTxtFound": true,
+    "robotsTxtRulesApplied": false,
+    "limitations": "",
+    "confidence": "95%",
+    "urls": [
+      {
+        "url": "https://www.sumitclub.jp/corporate/common/bumper/link.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2105.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2204.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2205.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2206.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2207.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2208.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2210.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2211.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2212.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2301.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2303.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2304.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2305.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2306.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2307.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2310.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2311.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2401.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2403.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2404.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2405.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2406.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2407.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2408.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2411.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2412.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2501.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2503.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2504.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2505.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2506.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2507.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2508.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2510.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2511.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2512.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2601.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2603.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2604.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2605.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/kaizen/2606.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/index.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/400.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/401.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/403.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/404.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/500.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/501.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/503.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/announcement/17MK_R0415.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/cardlineup/card_services_list.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/cardlineup/index.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/contact/index.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/faq/faq.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/index.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/info/index.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/notice/20190301.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/notice/20190320.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/notice/20190401_mastercard.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/notice/20190401_newcard.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/notice/20190701_2_en.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/notice/maintenance_clubonline.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/service/clubonline.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/service/estmt.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/service/index.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/en/sitemap/index.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/before-verify.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/bp/apple.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/ccol/3ds_appbumper.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/ccol/3dsbumper.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/ccol/companionbumper.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/ccol/familybumper.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/ccol/platinumbumper.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corp-verify.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/honninkakunin.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/honninkakunin/include/trust-body-nonav-input-personal-custom.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/honninkakunin/include/trust-footer-nonav-custom.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/how-verify.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/id-doc.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/golf_insurance.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/push/index.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/shinkinbank.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/ssi/footer.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/tc/ap_terms.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/platinum/member/campaign/dining-selection/search/index.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/platinum/member/ssi/footer.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/aasfp.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/campaign.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/campaign/new_member.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/campaign/cpn_trustclub_introduction.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/campaign/cpn_delta.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/campaign/cpn_cashback_202604.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/sumit_corporate.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/application.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/deltagold.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/deltaselect.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/etc.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/family.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/list.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/list/clear.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/list/delta.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/list/visa.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/nyukai.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/platinummaster.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/smtb_sumit_elite.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/sumit_elite.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/sumit_goldcard.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/sumit_platinum.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/sumit_platinum/switch.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/world.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/worldelite.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cardlineup/mastercard_general.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/cnasp.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/contact.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/contact/ivr.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate/d60th.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate/d60th/greeting.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate/d60th/history.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate/d60th/project.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/email.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/entertainment.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/entertainment/consulting.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/entertainment/fitness.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/entertainment/fitness/konami.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/entertainment/golf.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/entertainment/shopping.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/entertainment/shopping/ds-lounge.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/gourmet.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/gourmet/diningselection.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/index.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/assist.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/assistplus.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/buyers.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/cancel-protection.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/consul.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance/golf.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance/protection.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance/shopping.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance/traffic.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance/travel.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20501040002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20501070002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20505040002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20505070002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20505100002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20505130002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20505160002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20703030002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20705030002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20901010003A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20902050002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20904020002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20905030002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20908030002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21001040002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21002010003A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21101010004A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21102060002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21201030002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21501030002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20404050002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20102010002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20105040002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20108030002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20109020002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20201010004A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20201020003A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20201030003A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20401010003A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20402020001A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20403130003A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20405010003A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20704050002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20701030002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA20103040001A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21901030003A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21902030003A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21903030002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21905030002A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/loginPage/WA21906010003A.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250327.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240104.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240104_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240104_3.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240116.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20190111.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20190319.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/maintenance_col.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/20190412.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/maintenance.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20221003_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20231115_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240104_4.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240110.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240125.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240401_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240401.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240401_3.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240328.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240409.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240426.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240501.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240603.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240701.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240701_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240701_3.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240801.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240702.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/phishing.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240702_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240711.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240726.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240729_1.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240807.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240815.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20241001.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240829.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240913.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240924.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20240926.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20241101.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20241023.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20241023_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20241202_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20241202_3.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20241202.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20241111.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20241202_4.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250106_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250106.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250106_3.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250108.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250213.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250303.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250210.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250212.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250401.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250221.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250227.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250310.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250314.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250501.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250514.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250408.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250519.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250701_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250701_3.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250701_4.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250701.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250630.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250801.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250704.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250717.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250729.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250731.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250901.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250808.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250821.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250822.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20251001_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20251001.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250829.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250903.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250908.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20250916.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20251104.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20251009.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20251201.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20251125.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20251119.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260105_3.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20251209.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260105_4.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260109.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260216.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260126.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260130.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260401.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260501.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260518_2.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260518.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260601.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/notice/inf_20260424.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/bonusrewardsprogram.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/recommend.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/skymile.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/cashback.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/apply.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/pointtransfer.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/pointtransfer/tpoint.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/pointtransfer/amazon.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/pointtransfer/rakuten.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/pointtransfer/starbucks.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/pointtransfer/airtrip.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/pointtransfer/dpoint.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/pointtransfer/paypay.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/point/pointtransfer/jpyc.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/policy_customerresponse.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/privacy.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/privacy/agency.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/privacy/law.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/sitemap.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/smallprint.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/smallprint/optout.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/tc.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/cloak.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/cloak/delta.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/cloak/platinum.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/priority-pass.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/priority-pass/platinum.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/izumo.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/sendai.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/takamatsu.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/kobe.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/yonago.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/hakodate.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/niigata.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/tokushima.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/aomori.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/itami.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/asahikawa.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/chubukokusai.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/komatsu.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/nagasaki.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/fujisanshizuoka.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/hiroshima.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/akita.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/okayama.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/yamaguchiube.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/naha.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/kitakyushu.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/oita.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/kagoshima.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/toyama.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/kumamoto.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/shinchitose.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/matsuyama.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/fukuoka.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/kansaikokusai.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/narita.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/haneda.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/honolulu.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/miyazaki.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/kouchi.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/airportlounge/saga.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/jal_abc.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/flightdelaypass.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/airport/prioritypass.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/recommend.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/recommend/domestic_package.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/recommend/overseas_package.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/renta.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/renta/overseas_renta.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/renta/overseas_renta/hertz-rental-car.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/renta/carplus.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/stay.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/stay/hotel.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/stay/domestic_laxuary.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/stay/overseas_laxuary/SixSensesLaamu.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/support.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/support/domestic_platinum_traveldesk.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/support/overseas_platinum_traveldesk.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/support/domestic_traveldesk.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/support/overseas_traveldesk.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/travel/support/doctor.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/awareness.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/clubonline.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/clubonline/point.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/estatement.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/iccard.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/mobilesuica.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/passnumber.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/plusex.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/safety.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/approval.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/bonus.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/bunkatsu.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/loan.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/loan/annualincome.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/loan/atm.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/loan/smltcard.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/loan/smltcard/fixed.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/loan/smltcard/variable.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/loan/smltcash/fixed.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/loan/terms.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/payment.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/revo.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/revo/after.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/revo/everything.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/use/revo/fee.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/platinum_concierge.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/visa_premium.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/3d_secure.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/3d_secure/app_resetting.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/3d_secure/app_setting.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/3d_secure/cancel.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/3d_secure/change.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/3d_secure/confirmation.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/3d_secure/new_registration.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/applepay.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/applepay/howto.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/applepay/step.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/concierge.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/email_address.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/taste_of_premium.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/contactless.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/quickread.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/sumitapp.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/sumitapp_howto.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/usage/googlepay.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/localbank.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/privacy_kzk.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/company.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/company/overview.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/company/philosophy.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/company/top_message.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/company/locations.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/company/executives.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/company/history.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/news.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/service.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/service/kaizen.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/service/sponsorship.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/service/business.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/service/sdgs.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/corporate_site/recruit.html"
+      },
+      {
+        "url": "https://www.sumitclub.jp/ja/contact_form.html"
+      }
+    ],
+    "documents": []
+  }
+}

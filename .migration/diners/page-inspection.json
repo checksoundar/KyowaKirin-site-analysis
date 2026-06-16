@@ -1,0 +1,171 @@
+{
+  "site": "www.diners.co.jp (Diners Club Japan / Sumitomo Mitsui Trust Club)",
+  "platform": "Adobe Experience Manager (AEM Sites) with WCM Core Components (cmp-*) plus custom 'CCM###_*' components (e.g. CCM005_Html, CCM006_Text, CCM008_List, CCM001_Grid, CCM009_Button, CCM013_Breadcrumb, CCM020_CarouselBanner, CCM027_2ndLevelMenu). Header/footer delivered as AEM Experience Fragments. Some sections (benefit, magazine, event, press) use older custom JSP/Sightly templates with bespoke markup rather than Core Components.",
+  "inspectionNote": "The browser session was intermittently hijacked to www.sumitclub.jp (same AEM backend, shared Adobe Experience Cloud / adobe_mc cross-domain ID sync). Data below is taken from the diners.co.jp page-load snapshots captured before the redirect fired; where a diners URL could not be captured cleanly, the structurally identical sumitclub equivalent was observed and confirms the same template/component patterns. Console errors from ad/tracking scripts were ignored as instructed.",
+  "globalBlocks": {
+    "header": "Experience Fragment: logo + utility links (merchant, SEARCH, application, Club Online, corporate) + primary global nav (cardlineup, benefit/service, campaign/event, point, insurance, usage, contact, corporate). SEARCH opens search.diners.co.jp.",
+    "localSubNav": "Per-section secondary nav bar under header (e.g. magazine category tabs, press/event child links, cardlineup anchor menu). Maps to CCM027_2ndLevelMenu.",
+    "breadcrumb": "Present on nearly all pages (CCM013_Breadcrumb). Home > 個人のお客様 > section > page.",
+    "footer": "Experience Fragment: PAGETOP, FAQ teaser (Helpfeel external), application/Club Online CTAs, legal link lists, social icons (Twitter/Facebook/Instagram/YouTube), partner logos, copyright."
+  },
+  "pages": [
+    {
+      "n": 1,
+      "url": "https://www.diners.co.jp/ja/cardlineup/dinersclubcard.html",
+      "title": "ダイナースクラブカード | カードラインナップ",
+      "template": "Product / Card detail",
+      "bodyClasses": "page basicpage",
+      "captured": "clean (diners.co.jp)",
+      "counts": {"h1":1,"h2":6,"h3":76,"img":146,"a":269,"table":1,"form":2,"field":6,"iframe":8,"video":3},
+      "features": {"breadcrumb":true,"carousel":true,"accordion":true,"tabs":true,"cardgrid":true,"cta":true},
+      "sections": ["div.experiencefragment (header)","div.experiencefragment","div.container.responsivegrid.AES-layout-content","div.experiencefragment (footer)","div.CCM005_Html"],
+      "namedComponents": {"CCM005_Html":17,"CCM006_Text":5,"CCM008_List":4,"CCM001_Grid":2,"CCM009_Button":2,"CCM020_CarouselBanner":1,"CCM013_Breadcrumb":1,"cmp-container":125,"cmp-text":85,"cmp-image":43,"cmp-button":41,"cmp-title":36,"cmp-carousel__item":22,"cmp-accordion":2,"cmp-experiencefragment":8},
+      "forms": [{"action":"//search.diners.co.jp/","method":"GET","inputs":3}],
+      "thirdParty": {"youtube":true,"search":true,"helpfeel":true,"clubOnline":true}
+    },
+    {
+      "n": 2,
+      "url": "https://www.diners.co.jp/ja/cardlineup.html",
+      "title": "カードラインナップ",
+      "template": "Listing / Index (product catalog)",
+      "bodyClasses": "page basicpage",
+      "captured": "clean (diners.co.jp, via page-load snapshot)",
+      "features": {"breadcrumb":true,"hero":true,"filterUI":true,"cardListing":true,"cta":true},
+      "structure": "Hero (image + H1 + tagline), important-notice box, filter UI (card-type / annual-fee toggle lists), grouped card listing rows (card image + 年会費 dl + H3 + bullet list + apply CTA + detail CTA + compare button) separated by H2 category headings, '追加カードのご紹介' additional-card grid (image + name + desc + detail link), breadcrumb.",
+      "apply_links": "Apply CTAs go to diners.co.jp/ja/entry_form/lp/... landing pages (external application flow)."
+    },
+    {
+      "n": 3,
+      "url": "https://www.diners.co.jp/ja/benefit/detail.R1882.html",
+      "title": "片町小料理鮨 翔 (benefit/merchant detail)",
+      "template": "Benefit / Merchant detail (custom, non-Core-Components)",
+      "bodyClasses": "",
+      "captured": "clean (diners.co.jp)",
+      "counts": {"h1":1,"h2":7,"h3":5,"img":72,"a":179,"table":3,"form":2,"field":6,"iframe":2,"video":1},
+      "features": {"breadcrumb":true,"carousel":true,"gallery":true,"cardgrid":true,"cta":true},
+      "structure": "Title block (genre/area label + H1 + reading), image gallery (main + thumbnails), share button, description, benefit/优待 detail tables (course/price/conditions), reservation-method block, store-info table (address/access/hours/closed/homepage), '関連優待' related-benefit card grid. 'add to comparison list' and 'back to list' actions.",
+      "forms": "Header search form only (search.diners.co.jp); no inline data-entry form."
+    },
+    {
+      "n": 4,
+      "url": "https://www.diners.co.jp/ja/benefit.html",
+      "title": "ベネフィット / 優待検索 index",
+      "template": "Listing / Index (benefit search)",
+      "captured": "not captured clean (redirect hijack); maps to benefit-search listing template — filterable card grid of merchants/benefits linking to detail.R####.html pages (same family as #3 listing side)."
+    },
+    {
+      "n": 5,
+      "url": "https://www.diners.co.jp/ja/magazine/article/shopping/watch_jewelry/tiffany.html",
+      "title": "Watch & Jewelry - TIFFANY&Co. (SIGNATURE magazine article)",
+      "template": "Article / Editorial",
+      "captured": "clean (diners.co.jp)",
+      "features": {"breadcrumb":true,"categoryNav":true,"richText":true,"inlineImages":true,"socialShare":true,"relatedCardGrid":true},
+      "structure": "SIGNATURE magazine category sub-nav (All/Gourmet/Wine/Ginza/Kyoto/Shopping/Interview/Special/SDGs), article hero (category label + H1), rich-text body with inline images and captions, contact block, social share (Twitter/Facebook/LINE via JS window.open), 'Recommends' related-article card grid (image + date + category + title), library banner CTA, breadcrumb."
+    },
+    {
+      "n": 6,
+      "url": "https://www.diners.co.jp/ja/magazine/library.html",
+      "title": "SIGNATURE e-book library",
+      "template": "Listing / Index (magazine library)",
+      "captured": "not captured clean (redirect hijack); per magazine sub-nav and library banner this is a grid/listing of e-book issue covers linking to a flipbook/e-book viewer (third-party e-book reader). Same Article-section chrome (category sub-nav + breadcrumb)."
+    },
+    {
+      "n": 7,
+      "url": "https://www.diners.co.jp/ja/press/inf_20260601.html",
+      "title": "お知らせ / press detail",
+      "template": "News / Press detail (rich text + table)",
+      "captured": "clean (diners.co.jp)",
+      "features": {"breadcrumb":true,"localSubNav":true,"richText":true,"table":true,"share":true},
+      "structure": "Local sub-nav (お知らせ list + maintenance child), H1 title, share button, rich-text body + data table (period/rate/target/how-to-apply), date + company sign-off + release number, 'お知らせ一覧' back-to-list CTA, breadcrumb."
+    },
+    {
+      "n": 8,
+      "url": "https://www.diners.co.jp/ja/press.html",
+      "title": "お知らせ / press list",
+      "template": "News list / Index",
+      "captured": "not captured clean (redirect hijack); equivalent corporate-site news list observed: dated news-item list (date + category tag + linked title) with filter button and 'もっと見る' (load more) pagination button. Maps to a chronological news-listing block."
+    },
+    {
+      "n": 9,
+      "url": "https://www.diners.co.jp/ja/event/report/e00160.html",
+      "title": "イベントレポート detail",
+      "template": "Article / Report detail",
+      "captured": "clean (diners.co.jp)",
+      "features": {"breadcrumb":true,"localSubNav":true,"richText":true,"relatedList":true,"share":true},
+      "structure": "Local sub-nav (event calendar + report list), title block (Event Report label image + H1 + subtitle, table-based layout), rich-text body (date + paragraphs), '今後のイベント' CTA, 'その他イベントレポート' related list, back-to-list CTA, share, breadcrumb. Same family as #5/#7 (rich text + related list)."
+    },
+    {
+      "n": 10,
+      "url": "https://www.diners.co.jp/ja/travel/hotel.html",
+      "title": "トラベル category page",
+      "template": "Category / Service page (Core Components)",
+      "captured": "not captured clean (redirect hijack); equivalent sumitclub travel/usage pages observed use bodyClass 'page basicpage' with sections experiencefragment + container.responsivegrid (AES-layout-3rd_left / AES-layout-3rd_right two-column with CCM027_2ndLevelMenu side nav) + CCM005_Html / CCM006_Text / CCM009_Button / CCM001_Grid + breadcrumb. Standard AEM service/landing template."
+    },
+    {
+      "n": 11,
+      "url": "https://www.diners.co.jp/ja/contact.html",
+      "title": "お問い合わせ / contact",
+      "template": "Contact / Support (accordion + links, NOT an inline form)",
+      "captured": "equivalent sumitclub contact + diners contact_form gateway observed clean",
+      "features": {"breadcrumb":true,"accordion":true,"helpfeelFAQ":true,"externalForm":true},
+      "structure": "FAQ teaser (Helpfeel links), notices, accordion sections (h3 toggle buttons) of phone numbers/contact channels grouped by topic. The general-inquiry path (contact_form.html) is a gateway page whose '問い合わせをする' button launches an EXTERNAL/JS contact form widget — there is NO inline HTML <form> with data-entry fields on the page.",
+      "forms": "No real inline HTML form; member self-service handled by Club Online (sumitclub), FAQs by Helpfeel, general inquiry by external form widget."
+    },
+    {
+      "n": 12,
+      "url": "https://www.diners.co.jp/ja/sitemap.html",
+      "title": "サイトマップ",
+      "template": "Sitemap / Link-list index",
+      "captured": "equivalent sumitclub sitemap observed clean",
+      "features": {"breadcrumb":true,"share":true,"sectionedLinkLists":true},
+      "structure": "H1 + share, repeated section blocks (category icon + H2 (linked) + nested grouped link lists), plus an 'その他' tile/link group and footer CTAs."
+    },
+    {
+      "n": 13,
+      "url": "https://www.diners.co.jp/ja/privacy.html",
+      "title": "個人情報保護宣言 / legal policy",
+      "template": "Legal / Policy text page (Core Components rich text)",
+      "captured": "not captured clean (redirect hijack); per footer link family and platform, a long-form rich-text (CCM006_Text / CCM005_Html) page with headings, possibly tables, no interactive blocks; standard 'page basicpage' AEM shell + breadcrumb."
+    },
+    {
+      "n": 14,
+      "url": "https://www.diners.co.jp/ja/gourmet/restaurant.html",
+      "title": "グルメ / restaurant category",
+      "template": "Category / Service page (same family as #10)",
+      "captured": "not captured clean (redirect hijack); AEM service/landing template: hero/intro, card grids of services/merchants, CTA buttons, side or anchor sub-nav, breadcrumb."
+    },
+    {
+      "n": 15,
+      "url": "https://www.diners.co.jp/ja/usage/applepay.html",
+      "title": "ご利用案内 / Apple Pay how-to",
+      "template": "Usage / How-to page (same family as #10)",
+      "captured": "not captured clean (redirect hijack); two-column AEM layout (CCM027_2ndLevelMenu side nav + content: rich text, step lists, images, CTA buttons), breadcrumb."
+    }
+  ],
+  "templateGroups": {
+    "Product / Card detail": ["/ja/cardlineup/dinersclubcard.html"],
+    "Listing / Index": ["/ja/cardlineup.html","/ja/benefit.html","/ja/magazine/library.html","/ja/press.html"],
+    "Article / Editorial / Report detail (rich text + related list)": ["/ja/magazine/article/.../tiffany.html","/ja/press/inf_20260601.html","/ja/event/report/e00160.html"],
+    "Benefit / Merchant detail (custom)": ["/ja/benefit/detail.R1882.html"],
+    "Category / Service / How-to page (Core Components, often 2-column with side nav)": ["/ja/travel/hotel.html","/ja/gourmet/restaurant.html","/ja/usage/applepay.html"],
+    "Legal / Policy text": ["/ja/privacy.html"],
+    "Contact / Support (accordion + external form gateway)": ["/ja/contact.html"],
+    "Sitemap / Link-list index": ["/ja/sitemap.html"]
+  },
+  "reusableBlocks": [
+    "Header (Experience Fragment)","Footer (Experience Fragment)","Breadcrumb (CCM013_Breadcrumb)","Secondary/section sub-nav & side nav (CCM027_2ndLevelMenu)","Hero / page heading","Carousel / banner slider (CCM020_CarouselBanner, cmp-carousel, slick)","Card grid / listing (cmp-container + cmp-image + cmp-title + cmp-button)","News/date list (date + category tag + title, load-more)","Accordion (cmp-accordion / h3 toggle)","Tabs","Rich text (CCM006_Text / cmp-text)","Raw HTML embed (CCM005_Html)","Data table","CTA button (CCM009_Button / cmp-button)","Image + text","Link list (CCM008_List)","Grid layout (CCM001_Grid)","Image gallery / thumbnails (benefit detail)","Social share buttons (JS window.open: Twitter/Facebook/LINE)","FAQ teaser (Helpfeel)","Related items list"
+  ],
+  "thirdPartyIntegrations": {
+    "search": "search.diners.co.jp (header search form, GET)",
+    "memberLogin": "Club Online at sumitclub.jp/JPCRD/col/action/... (external members-only system)",
+    "faq": "Helpfeel (helpfeel.com/cards-faq-custhelp) external knowledge base",
+    "contactForm": "External/JS contact form widget launched from contact_form gateway (no inline HTML form)",
+    "video": "YouTube embeds (iframe) on product/card pages and elsewhere",
+    "analyticsAdTracking": "Adobe Experience Cloud (adobe_mc cross-domain ID sync to sumitclub.jp), Adobe Analytics (2o7.net/AppMeasurement), Meta Pixel, Logly, doga.cm and other ad/tracking scripts (console errors ignored)",
+    "remoteOperator": "sumitclub.rmop.jp (remote operator / co-browse)",
+    "applicationFlow": "diners.co.jp/ja/entry_form/lp/... card-application landing pages",
+    "ebookViewer": "magazine library uses a flipbook/e-book viewer (third-party)",
+    "maps": "none observed",
+    "chat": "none observed (contact handled via phone/Helpfeel/external form)"
+  }
+}

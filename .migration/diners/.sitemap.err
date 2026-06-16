@@ -1,0 +1,37 @@
+Redirect (301) → https://www.diners.co.jp/ja/index.html
+Checking root page for sitemap-like links...
+Redirect (301) → https://www.diners.co.jp/ja/index.html
+Trying sitemap candidates...
+Trying sitemap candidate: https://www.diners.co.jp/sitemap.xml
+Redirect (301) → https://www.diners.co.jp/ja/sitemap.xml
+Trying sitemap candidate: https://www.diners.co.jp/sitemap.xml.gz
+Redirect (301) → https://www.diners.co.jp/ja/sitemap.xml.gz
+HTTP status: 404
+Trying sitemap candidate: https://www.diners.co.jp/sitemap_index.xml
+Redirect (301) → https://www.diners.co.jp/ja/sitemap_index.xml
+HTTP status: 404
+Trying sitemap candidate: https://www.diners.co.jp/sitemap-index.xml
+Redirect (301) → https://www.diners.co.jp/ja/sitemap-index.xml
+HTTP status: 404
+Trying sitemap candidate: https://www.diners.co.jp/sitemap.txt
+Redirect (301) → https://www.diners.co.jp/ja/sitemap.txt
+HTTP status: 404
+Checking robots.txt for sitemap references...
+Redirect (301) → https://www.diners.co.jp/ja/robots.txt
+Found 2 sitemap(s) in robots.txt
+Processing 2 unique sitemap(s) from robots.txt...
+[1/2] Fetching sitemap: https://www.diners.co.jp/ja/Sitemap.xml
+Fetched sitemap successfully (urlset)
+[2/2] Fetching sitemap: https://www.diners.co.jp/ja/sitemap_s.html
+HTTP status: 404
+Failed to fetch sitemap (status: 404)
+Successfully fetched 1 sitemap(s)
+Fetching sitemap for site root: https://www.diners.co.jp
+Processing 1 sitemap(s)...
+[1/1] Processing sitemap: https://www.diners.co.jp/ja/Sitemap.xml
+Sitemap type: urlset
+Extracted 1765 URLs
+Sitemap fetch complete
+Total sitemaps processed: 1
+Total URLs discovered: 1765
+Sitemap location 1: https://www.diners.co.jp/ja/Sitemap.xml

@@ -1,0 +1,36 @@
+Redirect (301) → https://www.sumitclub.jp/ja/index.html
+Checking root page for sitemap-like links...
+Redirect (301) → https://www.sumitclub.jp/ja/index.html
+Found 1 sitemap-like candidate(s) on the root page
+Trying sitemap candidates...
+Trying sitemap candidate: https://www.sumitclub.jp/sitemap.xml
+Found sitemap at: https://www.sumitclub.jp/sitemap.xml (urlset)
+Trying sitemap candidate: https://www.sumitclub.jp/sitemap.xml.gz
+HTTP status: 404
+Trying sitemap candidate: https://www.sumitclub.jp/sitemap_index.xml
+HTTP status: 404
+Trying sitemap candidate: https://www.sumitclub.jp/sitemap-index.xml
+HTTP status: 404
+Trying sitemap candidate: https://www.sumitclub.jp/sitemap.txt
+HTTP status: 404
+Trying sitemap candidate: https://www.sumitclub.jp/ja/sitemap.html
+Got 200 but not a valid sitemap. Preview: <!DOCTYPE html> <html lang="ja"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> <meta equiv="X-UA-Compatible" content="IE=edge,chrome=1"/> <meta name="viewport" co...
+Checking robots.txt for sitemap references...
+Found 2 sitemap(s) in robots.txt
+Processing 2 unique sitemap(s) from robots.txt...
+[1/2] Fetching sitemap: https://www.sumitclub.jp/ja/Sitemap.xml
+Fetched sitemap successfully (urlset)
+Successfully fetched 2 sitemap(s)
+Fetching sitemap for site root: https://www.sumitclub.jp
+Processing 2 sitemap(s)...
+[1/2] Processing sitemap: https://www.sumitclub.jp/sitemap.xml
+Sitemap type: urlset
+Extracted 87 URLs
+[2/2] Processing sitemap: https://www.sumitclub.jp/ja/Sitemap.xml
+Sitemap type: urlset
+Extracted 352 URLs
+Sitemap fetch complete
+Total sitemaps processed: 2
+Total URLs discovered: 439
+Sitemap location 1: https://www.sumitclub.jp/sitemap.xml
+Sitemap location 2: https://www.sumitclub.jp/ja/Sitemap.xml

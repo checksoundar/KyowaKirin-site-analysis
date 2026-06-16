@@ -1,0 +1,149 @@
+{
+  "site": "www.sumitclub.jp (Sumitomo Mitsui Trust Club / TRUST CLUB Card)",
+  "platform": "Adobe Experience Manager (AEM) + Adobe Target/Analytics",
+  "inspectedOn": "2026-06-16",
+  "notes": [
+    "Adobe Target personalization frequently redirects sumitclub /ja/ pages to the sister site diners.co.jp during automated navigation; results below are from confirmed (retried) loads that stayed on sumitclub.",
+    "Console spammed by ad/tracking scripts (doga.cm, im-apps, facebook pixel, AppMeasurement) - ignored.",
+    "Three distinct page-shell families observed: (A) standard AEM /ja/ shell (global header+global nav+optional sub-nav+breadcrumb+share+content+FAQ/apply cards+footer), (B) corporate-site shell (/ja/corporate_site/*), (C) minimal-chrome shell (application/help/form microsites: contact_form, honninkakunin), plus (D) legacy /en/ shell and (E) standalone legacy table microsites (golf_insurance)."
+  ],
+  "pages": [
+    {
+      "n": 1, "url": "https://www.sumitclub.jp/ja/cardlineup/deltagold.html",
+      "template": "Card Product Detail (AEM standard shell)",
+      "title": "デルタ スカイマイル TRUST CLUB ゴールドVISAカード",
+      "bodyClasses": "page basicpage",
+      "counts": {"h1":1,"h2":"~7","h3":"many","img":"~145","a":"~270","table":1,"form":0,"input":0,"iframe":"several(tracking)","video":0},
+      "has": {"header":true,"globalNav":true,"breadcrumb":true,"share":true,"hero":true,"carousel":true,"accordion":true,"tabs":true,"cardGrid":true,"specTable":true,"cta":true,"footer":true},
+      "blocks": ["header","global-nav","hero (card image + text + bullets)","important-notice ribbon","promo/campaign CTA box","feature icon grid (travel/entertainment/point/insurance)","payment-method icon grid","spec detail table","accordion (注意事項 toggles)","apply CTA","recommended-cards carousel (prev/next + tablist)","related link cards (こちらもご覧ください)","FAQ + apply cards","breadcrumb","footer"],
+      "forms": "none on page; apply buttons link to external /entry_form/lp/* LP and external Club Online (JPCRD/col)"
+    },
+    {
+      "n": 2, "url": "https://www.sumitclub.jp/en/cardlineup/card_services_list.html",
+      "template": "Card Services Comparison List (legacy /en/ content, no global shell)",
+      "title": "List of Card Services",
+      "counts": {"h1":0,"h3":1,"h4":3,"table":3,"form":0,"iframe":0},
+      "has": {"globalShell":false,"breadcrumb":true,"comparisonTables":true,"linkLists":true,"carousel":false,"accordion":false},
+      "blocks": ["intro rich text + link list","3 large service-comparison tables (service rows x card columns, ○/×/△)","footnotes","breadcrumb","back-to-top"],
+      "forms": "none (links only)"
+    },
+    {
+      "n": 3, "url": "https://www.sumitclub.jp/ja/usage/clubonline.html",
+      "template": "Usage / How-To Content (AEM standard shell)",
+      "title": "クラブ・オンライン",
+      "counts": {"h1":1,"h2":"~3","h3":"many","table":0,"form":0,"iframe":0},
+      "has": {"header":true,"globalNav":true,"subNav":true,"breadcrumb":true,"share":true,"hero":true,"iconGrid":true,"stepProcess":true,"accordion":false,"tabs":"anchor-tabs","cta":true,"footer":true},
+      "blocks": ["header","global-nav","section sub-nav","breadcrumb","hero h1","rich-text intro","two-up CTA boxes","service icon-grid w/ anchor tabs","icon+heading+text feature sections","STEP1-5 numbered process blocks","large CTA button","FAQ + apply cards","footer"],
+      "forms": "none; registration via external /signon/ and JPCRD/col system"
+    },
+    {
+      "n": 4, "url": "https://www.sumitclub.jp/ja/notice.html",
+      "template": "Notice / News Index (AEM standard shell)",
+      "title": "お知らせ",
+      "counts": {"h1":1,"h3":"few","table":0,"form":0},
+      "has": {"header":true,"globalNav":true,"subNav":true,"breadcrumb":true,"tabs":true,"accordion":true,"newsList":true,"cta":true,"footer":true},
+      "blocks": ["header","global-nav","sub-nav","breadcrumb","h1","category tabs (すべて/サービス/システム/セキュリティ/その他)","year-grouped accordion news list (date-prefixed link items)","related link card","footer"],
+      "forms": "none (tabs/filter are JS)"
+    },
+    {
+      "n": 5, "url": "https://www.sumitclub.jp/en/notice/20190301.html",
+      "template": "Notice Detail (legacy /en/ shell)",
+      "title": "[Important Notice] IC chip card PIN",
+      "counts": {"h1":1,"h3":1,"table":1,"form":0},
+      "has": {"legacyEnHeader":true,"hamburgerMenu":true,"breadcrumb":true,"richText":true,"calloutBox":true,"dataTable":true,"megaFooter":true},
+      "blocks": ["legacy /en/ header (hamburger Menu)","h1 title","rich-text body paragraphs","contact callout box","h3 + data table","breadcrumb","legacy mega-link footer"],
+      "forms": "none"
+    },
+    {
+      "n": 6, "url": "https://www.sumitclub.jp/ja/travel/airport.html",
+      "template": "Category / Listing Landing (AEM standard shell)",
+      "title": "空港 | トラベル優待",
+      "counts": {"h1":1,"h3":"many","table":0,"form":0},
+      "has": {"header":true,"globalNav":true,"subNav":true,"breadcrumb":true,"share":true,"accordion":true,"cardGrid":true,"cta":true,"footer":true},
+      "blocks": ["header","global-nav","sub-nav","breadcrumb","hero h1","intro text","accordion (カードアイコン凡例)","card-grid listing (image+heading+desc+card-icon badges -> detail pages)","related card grid (こちらもご覧ください)","FAQ + apply cards","footer"],
+      "forms": "none"
+    },
+    {
+      "n": 7, "url": "https://www.sumitclub.jp/ja/corporate_site/company/overview.html",
+      "template": "Corporate Info Page (corporate-site shell)",
+      "title": "会社概要・沿革",
+      "counts": {"h1":1,"h2":2,"table":2,"form":0},
+      "has": {"corporateHeader":true,"dropdownNav":true,"breadcrumb":true,"dataTables":true,"corporateFooter":true,"share":false},
+      "blocks": ["corporate header (logo + dropdown nav 企業情報/事業/ニュース/採用)","breadcrumb (現在位置)","h1","data table (会社概要)","data table (沿革)","corporate mega footer (COMPANY/SERVICE/NEWS/RECRUIT)"],
+      "forms": "none (お問い合わせ links to /ja/contact_form.html)"
+    },
+    {
+      "n": 8, "url": "https://www.sumitclub.jp/ja/corporate_site/news.html",
+      "template": "Corporate News Release List (corporate-site shell)",
+      "title": "ニュースリリース NEWS RELEASE",
+      "counts": {"h1":1,"table":0,"form":0},
+      "has": {"corporateHeader":true,"breadcrumb":true,"filterButton":true,"newsList":true,"loadMore":true,"corporateFooter":true},
+      "blocks": ["corporate header","breadcrumb","bilingual h1","filter button (絞り込み検索)","news list as dl (date + category badge + title link -> PDF release)","load-more button (もっと見る)","corporate footer"],
+      "forms": "none (filter is JS)"
+    },
+    {
+      "n": 9, "url": "https://www.sumitclub.jp/ja/insurance/golf_insurance.html",
+      "template": "Legacy Standalone Insurance Microsite (table layout)",
+      "title": "三井住友海上 ゴルファー保険",
+      "counts": {"h1":0,"table":"3 (nested)","form":0},
+      "has": {"globalShell":false,"tableLayout":true,"jsEntryButton":true},
+      "blocks": ["pure table-based layout (2011 Mitsui Sumitomo Insurance)","banner image","JS 'YES' entry button (javascript:winop() -> external insurance application)","copyright"],
+      "forms": "no native form; entry button opens external insurer application (third-party)"
+    },
+    {
+      "n": 10, "url": "https://www.sumitclub.jp/ja/point/skymile.html",
+      "template": "Point Program Content (AEM standard shell)",
+      "title": "デルタ航空 スカイマイル",
+      "counts": {"h1":1,"h2":"~4","h3":"many","table":0,"form":0},
+      "has": {"header":true,"globalNav":true,"subNav":true,"breadcrumb":true,"share":true,"stepProcess":true,"imageWithCaption":true,"cardGrid":true,"linkList":true,"cta":true,"footer":true},
+      "blocks": ["header","global-nav","sub-nav","breadcrumb","hero h1","rich-text + image-with-caption sections","numbered step blocks","target-card link list","card grid (カードについてもっと知る)","FAQ + apply cards","footer"],
+      "forms": "none"
+    },
+    {
+      "n": 11, "url": "https://www.sumitclub.jp/ja/contact.html",
+      "template": "Contact Directory (AEM standard shell)",
+      "title": "お問い合わせ",
+      "bodyClasses": "page basicpage",
+      "counts": {"h1":1,"h2":5,"h3":27,"img":43,"a":163,"telLinks":23,"table":0,"form":0,"input":0,"iframe":1},
+      "has": {"header":true,"breadcrumb":true,"accordion":true,"cardGrid":true,"cta":true,"footer":true,"telLinks":true},
+      "blocks": ["header","breadcrumb","h1","accordion","contact-method card grid","phone-number directory (23 tel: links)","FAQ links","footer"],
+      "forms": "none (directory of phone numbers + links; actual form is on contact_form.html)"
+    },
+    {
+      "n": 12, "url": "https://www.sumitclub.jp/ja/contact_form.html",
+      "template": "Form Gateway (minimal-chrome shell)",
+      "title": "お問い合わせ",
+      "counts": {"h1":1,"h2":1,"h3":"few","table":0,"nativeForm":0},
+      "has": {"minimalHeader":true,"minimalFooter":true,"noticeBlocks":true,"linkList":true,"jsForm":true},
+      "blocks": ["minimal header (logo only)","h1","warning/notice rich-text blocks","link list to専用窓口","'問い合わせをする' button launching JS-injected inquiry form","reload note","minimal footer"],
+      "forms": "no native <form> in initial DOM; inquiry form injected via JS (third-party inquiry system)"
+    },
+    {
+      "n": 13, "url": "https://www.sumitclub.jp/ja/sitemap.html",
+      "template": "Sitemap / Link Index (AEM standard shell)",
+      "title": "サイトマップ",
+      "counts": {"h1":1,"h2":"~9","table":0,"form":0},
+      "has": {"header":true,"globalNav":true,"breadcrumb":true,"share":true,"linkListGroups":true,"cta":true,"footer":true},
+      "blocks": ["header","global-nav","breadcrumb","h1","categorized link-list groups (icon + h2 category + grouped links)","FAQ + apply cards","footer"],
+      "forms": "none"
+    },
+    {
+      "n": 14, "url": "https://www.sumitclub.jp/ja/privacy.html",
+      "template": "Legal / Policy Text (AEM standard shell)",
+      "title": "個人情報に関するご案内",
+      "counts": {"h1":1,"h3":8,"table":0,"form":0,"img":"minimal"},
+      "has": {"header":true,"globalNav":true,"subNav":true,"breadcrumb":true,"share":true,"richText":true,"cta":true,"footer":true},
+      "blocks": ["header","global-nav","sub-nav","breadcrumb","h1","rich-text legal content (numbered h3 sections + paragraphs)","FAQ + apply cards","footer"],
+      "forms": "none"
+    },
+    {
+      "n": 15, "url": "https://www.sumitclub.jp/ja/honninkakunin.html",
+      "template": "Application Help / Landing (minimal-chrome shell)",
+      "title": "本人確認書類について",
+      "counts": {"h1":1,"h2":"several(banner headings)","table":0,"form":0},
+      "has": {"minimalHeader":true,"callCenterInfo":true,"noGlobalNav":true,"noBreadcrumb":true,"sectionBanners":true,"richText":true,"linkList":true,"minimalFooter":true,"customJs":"honninkakunin/js/ac.js"},
+      "blocks": ["minimal header (logo + call-center info + help link)","h1","section banner headings (h2)","rich-text paragraphs + notice boxes","link list (verify-related pages)","minimal footer"],
+      "forms": "none"
+    }
+  ]
+}
