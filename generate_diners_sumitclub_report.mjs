@@ -418,25 +418,25 @@ children.push(P('Counts are derived from the live XML sitemaps (diners.co.jp = 1
 
 children.push(H2('3.1  Diners Club (diners.co.jp) — 1,765 pages'));
 children.push(buildTable(
-  ['Template / Section', 'Pages', 'Migration Mode', 'Basis'],
+  ['Template / Section', 'Pages', 'Migration Mode', 'Basis', 'URL pattern'],
   [
-    ['T5 Magazine (editorial)', '603', 'Automated', 'Uniform editorial structure'],
-    ['T4 Benefit / Service detail', '473', 'Automated', 'Highly consistent body layout'],
-    ['T6 Press / Notice', '173', 'Automated', 'Dated text articles'],
-    ['T1/T4 Event', '88', 'Automated', 'Landing + detail, standard blocks'],
-    ['T1/T4 Travel', '77', 'Automated', 'Service pages'],
-    ['T5 Lifestyle', '71', 'Automated', 'Editorial'],
-    ['T2/T3 Card Lineup & Detail', '44', 'Manual / Assisted', 'Tables, comparison, application CTAs'],
-    ['T1/T10 Corporate', '44', 'Automated', 'Standard content'],
-    ['T4 Merchant', '39', 'Automated', 'Service/info pages'],
-    ['T9 Usage / Guides', '31', 'Mixed', '3DS & registration = manual; rest auto'],
-    ['T4 Point / Gourmet / Golf', '39', 'Automated', 'Service detail'],
-    ['T9 Campaign (cpn_evt)', '15', 'Manual / Assisted', 'Bespoke LP styling'],
-    ['T4 Shopping/Finance/Insurance/Kameiten/Payment', '36', 'Automated', 'Service detail'],
-    ['T7 Legal / Policy / About / Sponsorship', '21', 'Automated', 'Plain rich text'],
-    ['T1 Homepage + misc', '11', 'Manual / Assisted', 'Bespoke homepage layout'],
+    ['T5 Magazine (editorial)', '603', 'Automated', 'Uniform editorial structure', '/ja/magazine/**'],
+    ['T4 Benefit / Service detail', '473', 'Automated', 'Highly consistent body layout', '/ja/benefit/**'],
+    ['T6 Press / Notice', '173', 'Automated', 'Dated text articles', '/ja/press/** (e.g. inf_YYYYMMDD.html)'],
+    ['T1/T4 Event', '88', 'Automated', 'Landing + detail, standard blocks', '/ja/event/**'],
+    ['T1/T4 Travel', '77', 'Automated', 'Service pages', '/ja/travel/**'],
+    ['T5 Lifestyle', '71', 'Automated', 'Editorial', '/ja/lifestyle/**'],
+    ['T2/T3 Card Lineup & Detail', '44', 'Manual / Assisted', 'Tables, comparison, application CTAs', '/ja/cardlineup/**'],
+    ['T1/T10 Corporate', '44', 'Automated', 'Standard content', '/ja/corporate/**, /ja/corporate.html'],
+    ['T4 Merchant', '39', 'Automated', 'Service/info pages', '/ja/merchant/**'],
+    ['T9 Usage / Guides', '31', 'Mixed', '3DS & registration = manual; rest auto', '/ja/usage/** (incl. /usage/3d_secure/**)'],
+    ['T4 Point / Gourmet / Golf', '39', 'Automated', 'Service detail', '/ja/point/**, /ja/gourmet/**, /ja/golf/**'],
+    ['T9 Campaign (cpn_evt)', '15', 'Manual / Assisted', 'Bespoke LP styling', '/ja/cpn_evt/**'],
+    ['T4 Shopping/Finance/Insurance/Kameiten/Payment', '36', 'Automated', 'Service detail', '/ja/shopping/**, /ja/finance/**, /ja/insurance/**, /ja/kameiten/**, /ja/payment/**'],
+    ['T7 Legal / Policy / About / Sponsorship', '21', 'Automated', 'Plain rich text', '/ja/privacy*.html, /ja/tc.html, /ja/smallprint*, /ja/about/**, /ja/sponsorship*'],
+    ['T1 Homepage + misc', '11', 'Manual / Assisted', 'Bespoke homepage layout', '/ja/index.html, /ja/*.html (top-level)'],
   ],
-  [40, 12, 24, 24],
+  [24, 8, 16, 24, 28],
   { centerCols: [1, 2], boldFirst: true }
 ));
 children.push(P('Diners split: ≈ 1,556 automated (88%) · ≈ 209 manual / assisted (12%).', { bold: true, before: 60 }));
