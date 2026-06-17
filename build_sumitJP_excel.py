@@ -275,10 +275,10 @@ for i, w in enumerate([28, 12, 14], start=1):
 
 # Note row about R#### set
 ws3.append([])
-ws3.append(['Note: The supplied list also contains ~1,004 member dining-selection detail '
-            'pages (…/search/R####.html), all mapping to the single "Member Dining-Selection '
-            'Detail (R####)" category (Manual / Auth-gated). They are represented here by the '
-            'index/search/stocklist entries, not as 1,004 separate rows.'])
+ws3.append(['Note: The 1,026 member dining-selection detail pages (…/search/R####.html) are now '
+            'included as individual rows under the single "Member Dining-Selection Detail (R####)" '
+            'category (Manual / Auth-gated). They share one auth-gated, JS-rendered template, so '
+            'although counted individually they represent one build, not 1,026 distinct templates.'])
 ws3.merge_cells(start_row=ws3.max_row, start_column=1, end_row=ws3.max_row, end_column=3)
 ws3.cell(row=ws3.max_row, column=1).alignment = Alignment(wrap_text=True, vertical='top')
 ws3.row_dimensions[ws3.max_row].height = 60
