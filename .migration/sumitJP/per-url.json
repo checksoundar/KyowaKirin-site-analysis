@@ -1,0 +1,5292 @@
+[
+  {
+    "url": "https://www.sumitclub.jp/activecheck.html",
+    "category": "Tracking/System Stub",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/common/bumper/link.html",
+    "category": "Bumper/Redirect Stub",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/common/ssi/footer_corporate_site/corporate_site_footer.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/common/ssi/footer_smtc/tc_corp_footer.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/common/ssi/header_corporate_site/corporate_site_header.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/common/ssi/header_smtc/tc_corp_header.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/greeting/index.html",
+    "category": "Corporate Info (legacy shell)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/index.html",
+    "category": "Corporate Info (legacy shell)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/180102.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1803.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1804.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1805.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1806.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1807.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/180809.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1810.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1811.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1812.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/190102.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1903.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1904.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1905.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1906.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1907.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/190809.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1910.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1911.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/1912.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/200102.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2003.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2004.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2005.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2006.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2007.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2008.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2010.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2011.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2012.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2101.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2103.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2105.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2106.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2107.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2108.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2110.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2111.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2112.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2201.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2203.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2204.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2205.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2206.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2207.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2208.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2210.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2211.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2212.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2301.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2303.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2304.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2305.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2306.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2307.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2308.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2310.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2311.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2312.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2401.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2403.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2404.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2405.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2406.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2407.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2408.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2410.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2411.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2412.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2501.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2503.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2504.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2505.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2506.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2507.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2508.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2510.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2511.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2512.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/2601.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/kaizen/index.html",
+    "category": "Corporate Kaizen Notice (archive)",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/news/index.html",
+    "category": "Corporate News List",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/business/card/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/business/department/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/business/history/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/business/story01/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/business/story02/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/company/aboutus/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/interviews/01/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/interviews/02/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/interviews/03/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/interviews/04/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/interviews/05/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/person/interview01/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/person/interview02/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/person/interview03/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/person/interview04/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/person/interview05/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/recruit/faq/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/recruit/guideline/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/recruit/message/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/recruit/support/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/project/_project01.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/project/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/project/project01.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/project/project02.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/project/project03.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/qa/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/pop/01.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/pop/02.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/pop/03.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/pop/04.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/pop/05.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/pop/06.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/pop/07.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/pop/08.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/pop/09.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/story/pop/10.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/voice/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/talk/01/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/talk/02/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/talk/03/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-environment/_talk02/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-environment/careerpath/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-environment/support/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-environment/talk01/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-environment/talk02/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-environment/talk03/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/qa/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/session01/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/session02/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/session03/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/pop/01.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/pop/02.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/pop/03.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/pop/04.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/pop/05.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/pop/06.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/pop/07.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/pop/08.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/pop/09.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/special/pop/10.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/work-style/voice/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/workshop/index.html",
+    "category": "Corporate Recruit Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/corporate/summary/index.html",
+    "category": "Corporate Info (legacy shell)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/400.html",
+    "category": "HTTP Error Page",
+    "mode": "Manual / Replace"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/401.html",
+    "category": "HTTP Error Page",
+    "mode": "Manual / Replace"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/403.html",
+    "category": "HTTP Error Page",
+    "mode": "Manual / Replace"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/404.html",
+    "category": "HTTP Error Page",
+    "mode": "Manual / Replace"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/500.html",
+    "category": "HTTP Error Page",
+    "mode": "Manual / Replace"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/501.html",
+    "category": "HTTP Error Page",
+    "mode": "Manual / Replace"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/503.html",
+    "category": "HTTP Error Page",
+    "mode": "Manual / Replace"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/WD1100112.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/announcement/17MK_R0415.html",
+    "category": "Announcement Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/announcement/17MK_R0415_modal_01.html",
+    "category": "Modal/Popup Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/announcement/17MK_R0415_modal_02.html",
+    "category": "Modal/Popup Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/announcement/17MK_R0415_modal_03.html",
+    "category": "Modal/Popup Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/cardlineup/card_services_list.html",
+    "category": "Card Lineup Listing/Index",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/cardlineup/index.html",
+    "category": "Card Lineup Listing/Index",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/contact/index.html",
+    "category": "Contact / Support",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2020/dn_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/bc_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2021/dn_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/bc_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2022/dn_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/bc_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2023/dn_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/bc_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2024/dn_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/bc_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/bc_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_01_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_01_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_02_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_02_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_03_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_03_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_04_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_04_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_05_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_05_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_06_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_06_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_07_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_07_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_08_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_08_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_09_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_09_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_10_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_10_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_11_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_11_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_12_A.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/2026/dn_eng_12_B.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/email/estatement/reissue/en.html",
+    "category": "E-statement Email Template",
+    "mode": "Exclude / Separate track"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/faq/faq.html",
+    "category": "FAQ Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/index.html",
+    "category": "Homepage (locale)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/info/index.html",
+    "category": "Info Index",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/notice/20190301.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/notice/20190320.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/notice/20190401_mastercard.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/notice/20190401_newcard.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/notice/20190701_2_en.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/notice/index.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/notice/maintenance_clubonline.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/popup/javascriptoff.html",
+    "category": "Blank/Helper Stub",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/privacy/index.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/service/clubonline.html",
+    "category": "Service Page (legacy en)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/service/estmt.html",
+    "category": "Service Page (legacy en)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/service/index.html",
+    "category": "Service Page (legacy en)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/sitemap/index.html",
+    "category": "Sitemap",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/footer.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/header.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/header_nonavi.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/header_perfect_selection.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/log.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/side_basiccardinfo.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/side_bottom.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/side_card_service.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/side_contact.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/side_faq.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/side_notice.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/side_privacy.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/ssi/side_tc.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/en/tc/index.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/ana_diners/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/common/bumper/link.html",
+    "category": "Bumper/Redirect Stub",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/ana_diners/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/business/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/common/bumper/link.html",
+    "category": "Bumper/Redirect Stub",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/common/component/base/diners_service/parts.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/common/component/base/ginza_service/parts.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/ginza_digi/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/ginza_digi/qs/qs_parts.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/mileageplus/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/mileageplus/mainvisual_diners_tcal/qs_parts.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/web/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/web/selectcards/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/web_cm/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/web_general/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/web_point/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/diners_lp/web_point/selectcards/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/entrance/delta/01/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/entrance/delta/02/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/entrance/delta/03/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/entrance/delta/04/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/entrance/delta/05/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/common/bumper/link.html",
+    "category": "Bumper/Redirect Stub",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/delta_gold/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/delta_platinum/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/delta_visa/_contents.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/delta_visa/_header_main.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/delta_visa/_offer.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/delta_visa/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/delta_visa2/_offer.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/delta_visa2/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite/_contents01.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite/_footer.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite/_header.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite/_offer01.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite/_offer03.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite1/_footer.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite1/_offer01.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite1/_offer03.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite1/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/elite_goldvisa/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/mgm_select/css/footer_diners/parts.html",
+    "category": "LP Partial Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/mgm_trustclub/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/mgm_trustclub/popup/error.html",
+    "category": "Modal/Popup Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/platinum/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/platinummaster/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/redirect/index.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/world/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/entry_form/lp/worldelite/index.html",
+    "category": "Card Application Landing Page (LP)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/google5da0161189f176f3.html",
+    "category": "Tracking/System Stub",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/WD1100112.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/before-verify.html",
+    "category": "Identity Verification Microsite",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/bp/apple.html",
+    "category": "App-bridge Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/campaign/cpn_delta.html",
+    "category": "Campaign Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/campaign/cpn_googlepay_2.html",
+    "category": "Campaign Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/campaign/cpn_trustclub_introduction.html",
+    "category": "Campaign Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/campaign/cpn_trustclub_mgm_introduction.html",
+    "category": "Campaign Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/campaign/new_member.html",
+    "category": "Campaign Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup.html",
+    "category": "Card Lineup Listing/Index",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/application.html",
+    "category": "Card Lineup Listing/Index",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/deltagold.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/deltaselect.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/etc.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/family.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/list.html",
+    "category": "Card Lineup Listing/Index",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/list/clear.html",
+    "category": "Card Lineup Listing/Index",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/list/delta.html",
+    "category": "Card Lineup Listing/Index",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/list/visa.html",
+    "category": "Card Lineup Listing/Index",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/mastercard_general.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/nyukai.html",
+    "category": "Card Lineup Listing/Index",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/platinummaster.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/smtb_sumit_elite.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/sumit_corporate.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/sumit_elite.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/sumit_goldcard.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/sumit_platinum.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/sumit_platinum/switch.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/world.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cardlineup/worldelite.html",
+    "category": "Card Product Detail",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ccol/3ds_appbumper.html",
+    "category": "Club Online Bumper Page",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ccol/3dsbumper.html",
+    "category": "Club Online Bumper Page",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ccol/companionbumper.html",
+    "category": "Club Online Bumper Page",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ccol/familybumper.html",
+    "category": "Club Online Bumper Page",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ccol/platinumbumper.html",
+    "category": "Club Online Bumper Page",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ccol/support/index.html",
+    "category": "Club Online Bumper Page",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/cnasp.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/commercialcard/usage/procedure.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/contact.html",
+    "category": "Contact / Support",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/contact/ivr.html",
+    "category": "Contact / Support",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corp-verify.html",
+    "category": "Identity Verification Microsite",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate/d60th.html",
+    "category": "Corporate Info (legacy shell)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate/d60th/greeting.html",
+    "category": "Corporate Info (legacy shell)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate/d60th/history.html",
+    "category": "Corporate Info (legacy shell)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate/d60th/project.html",
+    "category": "Corporate Info (legacy shell)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate/sdgs.html",
+    "category": "Corporate Info (legacy shell)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site.html",
+    "category": "Section Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/company.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/company/executives.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/company/history.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/company/locations.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/company/overview.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/company/philosophy.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/company/top_message.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/news.html",
+    "category": "Corporate News List",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/recruit.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/service.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/service/business.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/service/kaizen.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/service/sdgs.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/corporate_site/service/sponsorship.html",
+    "category": "Corporate Info (AEM)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/email.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/entertainment.html",
+    "category": "Section Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/entertainment/consulting.html",
+    "category": "Entertainment/Lifestyle Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/entertainment/fitness.html",
+    "category": "Entertainment/Lifestyle Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/entertainment/fitness/konami.html",
+    "category": "Entertainment/Lifestyle Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/entertainment/golf.html",
+    "category": "Entertainment/Lifestyle Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/entertainment/shopping.html",
+    "category": "Entertainment/Lifestyle Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/entertainment/shopping/ds-lounge.html",
+    "category": "Entertainment/Lifestyle Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/gourmet.html",
+    "category": "Section Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/gourmet/diningselection.html",
+    "category": "Gourmet Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin.html",
+    "category": "Identity Verification Microsite",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin/include/btn-online-sp.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin/include/modal-window.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin/include/trust-body-nonav-input-personal-custom.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin/include/trust-body-nonav-input-personal.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin/include/trust-body-nonav-sp-input-personal.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin/include/trust-footer-nonav-custom.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin/include/trust-footer-nonav.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin/include/trust-header-nonav-input-personal.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin/include/trust-header-nonav-sp-input-personal.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/honninkakunin/include/virtual-numpad.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/how-verify.html",
+    "category": "Identity Verification Microsite",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/id-doc.html",
+    "category": "Identity Verification Microsite",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/iframe/blank2.html",
+    "category": "Blank/Helper Stub",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/index.html",
+    "category": "Homepage (locale)",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance.html",
+    "category": "Section Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/assist.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/assistplus.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/buyers.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/cancel-protection.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/consul.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/golf_insurance.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/push/index.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/rd_golf_insurance.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance/golf.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance/protection.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance/shopping.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance/traffic.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/insurance/worldelite_insurance/travel.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/localbank.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice.html",
+    "category": "Notice / News Index",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190107.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190108.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190111.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190111_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190121.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190124.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190201.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190218.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190301.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190306.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190319.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190325.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190328.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190401.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190401_mastercard.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190401_newcard.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190405.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190412.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190523.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190603.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190619.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190701_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/201907_cashless.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190816.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190829.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190904.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190913.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/20190920.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/2019516_we.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/index.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20190111.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20190319.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20221003_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20231115_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240104.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240104_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240104_3.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240104_4.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240110.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240116.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240125.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240328.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240401.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240401_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240401_3.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240409.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240426.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240501.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240603.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240701.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240701_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240701_3.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240702.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240702_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240711.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240726.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240729_1.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240801.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240807.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240815.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240829.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240913.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240924.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20240926.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20241001.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20241023.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20241023_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20241101.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20241111.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20241202.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20241202_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20241202_3.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20241202_4.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250106.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250106_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250106_3.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250108.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250210.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250212.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250213.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250221.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250227.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250303.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250310.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250314.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250327.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250401.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250408.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250501.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250514.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250519.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250630.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250701.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250701_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250701_3.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250701_4.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250704.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250717.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250729.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250731.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250801.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250808.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250821.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250822.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250829.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250901.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250903.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250908.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20250916.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20251001.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20251001_2.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20251009.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20251104.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20251119.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20251125.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20251201.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20251209.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20260105_3.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20260105_4.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20260109.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20260126.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20260130.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20260216.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/inf_20260401.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/maintenance.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/maintenance_clubonline.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/maintenance_col.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/notice/phishing.html",
+    "category": "Notice / News Detail",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point.html",
+    "category": "Section Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/apply.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/bonusrewardsprogram.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/cashback.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/pointtransfer.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/pointtransfer/airtrip.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/pointtransfer/amazon.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/pointtransfer/dpoint.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/pointtransfer/paypay.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/pointtransfer/rakuten.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/pointtransfer/starbucks.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/pointtransfer/tpoint.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/recommend.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/point/skymile.html",
+    "category": "Point Program Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/pointmall/d_sysfail.html",
+    "category": "System Error Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/pointmall/s_sysfail.html",
+    "category": "System Error Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/policy_customerresponse.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/popup/javascriptoff.html",
+    "category": "Blank/Helper Stub",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/privacy.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/privacy/agency.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/privacy/law.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/privacy_kzk.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd/app.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd/ms-insurance_tenso.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd_diners_ws.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd_elite.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd_master.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd_platinum.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd_reward.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd_shippingnotification.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd_shippingnotification_co.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd_visa.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/rd_world.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/shinkinbank.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/signon/index.html",
+    "category": "Sign-on / Login System",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/smallprint.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/smallprint/optout.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/body_code.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/card_insurance_rg.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/contact_traveldesk_domestic.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/contact_traveldesk_overseas.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_campaign.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_cardlineup.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_domestic.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_entertainment.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_gourmet.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_insurance.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_nonavi.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_overseas.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_perfect_selection.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_point.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_travel.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/footer_usage.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/header.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/header_nonavi.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/header_perfect_selection.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/log.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/pushcode.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/reccomendgift.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_bottom.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_campaign.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_clubonline.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_contact.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_domestic.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_entertainment.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_gourmet.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_insurance.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_notice.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_notice_maintenance.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_notice_news.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_other.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_overseas.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_point.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_privacy.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_recruit.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_revo.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_tc.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_travel.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/side_usage.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/smltcard_usage.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/smltcash_usage.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/smltgold_usage.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/smltinst3_usage.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/subject_card_a.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/subject_card_b.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/top_cashless.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/top_newsListBlock.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/top_recommend_card.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/ssi/top_service_support.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/taikai/index.html",
+    "category": "Cancellation/Termination Flow",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/taikai/termination_02.html",
+    "category": "Cancellation/Termination Flow",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/taikai/termination_03.html",
+    "category": "Cancellation/Termination Flow",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/taikai/termination_04.html",
+    "category": "Cancellation/Termination Flow",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/taikai/termination_05.html",
+    "category": "Cancellation/Termination Flow",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/taikai/termination_06.html",
+    "category": "Cancellation/Termination Flow",
+    "mode": "Manual"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/tc.html",
+    "category": "Legal / Policy Text",
+    "mode": "Automated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel.html",
+    "category": "Section Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/airport.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/airport/cloak.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/airport/cloak/delta.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/airport/cloak/platinum.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/airport/flightdelaypass.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/airport/jal_abc.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/airport/priority-pass.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/airport/priority-pass/platinum.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/airport/prioritypass.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/domestic/airportrenta/airportlounge/details.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/overseas/airportrenta/airportlounge/details.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/recommend.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/recommend/domestic_package.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/recommend/overseas_package.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/renta.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/renta/carplus.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/renta/overseas_renta.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/renta/overseas_renta/hertz-rental-car.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/stay.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/stay/domestic_laxuary.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/stay/hotel.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/stay/overseas_laxuary/SixSensesLaamu.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/support.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/support/doctor.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/support/domestic_platinum_traveldesk.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/support/domestic_traveldesk.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/support/overseas_platinum_traveldesk.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/travel/support/overseas_traveldesk.html",
+    "category": "Travel Service Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/answer_thanks.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/col_3dsecure.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/col_app.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/col_app_store.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/col_consul.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/col_estmcmp.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/col_insurance.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/col_insuranceplus.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/col_loan_cashback.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/col_pointmall.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/cpn_push_receive.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/shopping_i.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/shopping_n.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/shopping_o.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/unique/shopping_revo.html",
+    "category": "Club Online Promo (unique)",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage.html",
+    "category": "Section Landing Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/3d_secure.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/3d_secure/app_resetting.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/3d_secure/app_setting.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/3d_secure/cancel.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/3d_secure/change.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/3d_secure/confirmation.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/3d_secure/new_registration.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/applepay.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/applepay/howto.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/applepay/step.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/awareness.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/clubonline.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/clubonline/point.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/concierge.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/contactless.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/email_address.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/estatement.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/googlepay.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/iccard.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/mobilesuica.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/passnumber.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/platinum_concierge.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/plusex.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/quickread.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/safety.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/sumitapp.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/sumitapp_howto.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/taste_of_premium.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/approval.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/bonus.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/bunkatsu.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/loan.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/loan/annualincome.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/loan/atm.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/loan/smltcard.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/loan/smltcard/fixed.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/loan/smltcard/print.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/loan/smltcard/variable.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/loan/smltcash/fixed.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/loan/smltcash/print.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/loan/terms.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/payment.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/revo.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/revo/after.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/revo/everything.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/use/revo/fee.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/ja/usage/visa_premium.html",
+    "category": "Usage / How-to Page",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/customer-service/customer-service.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/life-style/dining-selection.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/life-style/ds-lounge.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/life-style/fitness.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/life-style/golf-service.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/life-style/index-entertainment.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/life-style/index-gourmet.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/life-style/konami-sports-top.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/life-style/platinum-dining.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/life-style/platinum-golf.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/taxi.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/topics/index.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/travel-service/airline.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/travel-service/airport-hotel.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/travel-service/airport-lounge.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/travel-service/airport-train.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/travel-service/foreign-travel-desk.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/travel-service/hertz-rental-car.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/travel-service/relux.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/travel-service/taxi.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/common/ssi/content/travel-service/travel-desk.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/campaign/dining-selection.html",
+    "category": "Member Dining-Selection Index/Search",
+    "mode": "Manual / Auth-gated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/campaign/dining-selection/index.html",
+    "category": "Member Dining-Selection Index/Search",
+    "mode": "Manual / Auth-gated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/campaign/dining-selection/search/index.html",
+    "category": "Member Dining-Selection Index/Search",
+    "mode": "Manual / Auth-gated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/campaign/dining-selection/search/stocklist.html",
+    "category": "Member Dining-Selection Index/Search",
+    "mode": "Manual / Auth-gated"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/cpn_header.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/dining-selection-howto.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/dining_header.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/footer.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/sidenav_bottom.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/sidenav_concierge.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/sidenav_entertainment.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/sidenav_gourmet.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/sidenav_insurance.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/sidenav_mileage.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/sidenav_topics.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/sidenav_travel.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/member/ssi/sidenav_use.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/platinum/select/insurance/index.html",
+    "category": "Insurance Product/Info",
+    "mode": "Assisted"
+  },
+  {
+    "url": "https://www.sumitclub.jp/rd/app.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/rd/osm.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/rd/smtb.html",
+    "category": "Redirect / Router Stub",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/signon/index.html",
+    "category": "Sign-on / Login System",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/signon/jpn/index.html",
+    "category": "Sign-on / Login System",
+    "mode": "Exclude / Re-point"
+  },
+  {
+    "url": "https://www.sumitclub.jp/volare/_assets/ssi/header.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/volare/common/ssi/footer.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/volare/common/ssi/header.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/volare/common/ssi/header_deltaplatinum.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  },
+  {
+    "url": "https://www.sumitclub.jp/volare/common/ssi/header_sumit_platinum.html",
+    "category": "SSI Include Fragment",
+    "mode": "Exclude (not a page)"
+  }
+]

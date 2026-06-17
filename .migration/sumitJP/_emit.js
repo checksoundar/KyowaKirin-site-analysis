@@ -1,7 +1,3 @@
-const fs = require('fs');
-const lines = fs.readFileSync(process.argv[2], 'utf8').trim().split('\n').filter(Boolean);
-
-// Category definitions with migration tag. Order matters (first match wins).
 const rules = [
   // Non-page assets / fragments
   [/\/ssi\//, 'SSI Include Fragment', 'Exclude (not a page)'],
@@ -85,36 +81,14 @@ const rules = [
   [/\.html$/, 'Other Content Page', 'Assisted'],
 ];
 
-const cats = {};
-const tagByCat = {};
-const examples = {};
-const unmatched = [];
-const perUrl = [];
-for (const url of lines) {
-  let matched = false;
-  for (const [re, cat, tag] of rules) {
-    if (re.test(url)) {
-      cats[cat] = (cats[cat] || 0) + 1;
-      tagByCat[cat] = tag;
-      (examples[cat] = examples[cat] || []).push(url);
-      perUrl.push({ url, category: cat, mode: tag });
-      matched = true;
-      break;
-    }
-  }
-  if (!matched) { unmatched.push(url); perUrl.push({ url, category: 'UNMATCHED', mode: 'Review' }); }
-}
-fs.writeFileSync('per-url.json', JSON.stringify(perUrl, null, 2));
 
-const sorted = Object.entries(cats).sort((a, b) => b[1] - a[1]);
-console.log('TOTAL classified:', lines.length, '| categories:', sorted.length, '| unmatched:', unmatched.length);
-console.log('');
-for (const [cat, n] of sorted) {
-  console.log(String(n).padStart(4), '|', tagByCat[cat].padEnd(22), '|', cat);
+const fs2=require("fs");
+const lines=fs2.readFileSync("full-corpus.txt","utf8").trim().split("
+").filter(Boolean);
+const out=[];
+for(const url of lines){let done=false;
+ for(const [re,cat,tag] of rules){ if(re.test(url)){out.push({url,category:cat,mode:tag});done=true;break;} }
+ if(!done) out.push({url,category:"UNMATCHED",mode:"Review"});
 }
-if (unmatched.length) {
-  console.log('\n--- UNMATCHED ---');
-  unmatched.slice(0, 40).forEach(u => console.log('   ', u));
-}
-fs.writeFileSync(process.argv[3] || 'classification.json',
-  JSON.stringify({ total: lines.length, cats, tagByCat, examples, unmatched }, null, 2));
+fs2.writeFileSync("per-url.json",JSON.stringify(out,null,2));
+console.log("per-url rows:",out.length,"unmatched:",out.filter(o=>o.category==="UNMATCHED").length);
