@@ -1,0 +1,255 @@
+{
+  "_meta": {
+    "site": "www.sumitclub.jp",
+    "inspectedOn": "2026-06-17",
+    "method": "Playwright navigate + browser_evaluate; console errors ignored (ad/tracking spam)",
+    "notes": "isAEM = page rendered by AEM (div.root.responsivegrid + body.page.basicpage). hasCardGrid often true because helper matched generic [class*=grid]/[class*=cards] from chrome; treat as weak signal."
+  },
+  "results": [
+    {
+      "n": 1, "category": "Homepage",
+      "url": "https://www.sumitclub.jp/ja/index.html",
+      "httpOk": true, "title": "クレジットカードならTRUST CLUBカード | クレジットカードなら三井住友トラストクラブ",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":4,"h3":16,"img":39,"a":181,"table":0,"form":0,"input":0,"iframe":3},
+      "hasBreadcrumb": false, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"]
+    },
+    {
+      "n": 2, "category": "Card Product Detail",
+      "url": "https://www.sumitclub.jp/ja/cardlineup/deltagold.html",
+      "httpOk": true, "title": "デルタ スカイマイル TRUST CLUB ゴールドVISAカード | カードラインナップ | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":10,"h3":22,"img":74,"a":210,"table":1,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": true, "hasAccordion": true, "hasTabs": true, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"]
+    },
+    {
+      "n": 3, "category": "Section Landing",
+      "url": "https://www.sumitclub.jp/ja/cardlineup.html",
+      "httpOk": true, "title": "カードラインナップ | クレジットカードなら三井住友トラストクラブ",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":10,"h3":3,"img":32,"a":155,"table":0,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"]
+    },
+    {
+      "n": 4, "category": "Card Lineup Listing / Compare",
+      "url": "https://www.sumitclub.jp/ja/cardlineup/list.html",
+      "httpOk": true, "title": "カードを比較する | カードラインナップ | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":2,"h3":3,"img":43,"a":237,"table":3,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": true, "hasAccordion": false, "hasTabs": true, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"]
+    },
+    {
+      "n": 5, "category": "Notice/News Detail",
+      "url": "https://www.sumitclub.jp/ja/notice/inf_20250401.html",
+      "httpOk": true, "title": "「リボルビング払い手数料率」の変更 | お知らせ | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":1,"h3":3,"img":12,"a":113,"table":1,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"]
+    },
+    {
+      "n": 6, "category": "Notice Index",
+      "url": "https://www.sumitclub.jp/ja/notice.html",
+      "httpOk": true, "title": "お知らせ | お知らせ | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":1,"h3":2,"img":11,"a":315,"table":0,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": true, "hasTabs": true, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"],
+      "note": "Tab filter (すべて/サービス/システム/...) + year-grouped link lists (accordion years)"
+    },
+    {
+      "n": 7, "category": "Usage/How-to",
+      "url": "https://www.sumitclub.jp/ja/usage/applepay.html",
+      "httpOk": true, "title": "Apple Pay | ご利用案内 | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":6,"h3":3,"img":24,"a":130,"table":0,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"],
+      "note": "Adds left/side category nav above breadcrumb"
+    },
+    {
+      "n": 8, "category": "Travel Service",
+      "url": "https://www.sumitclub.jp/ja/travel/airport.html",
+      "httpOk": true, "title": "空港 | トラベル優待 | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":1,"h3":13,"img":25,"a":145,"table":0,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": true, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"]
+    },
+    {
+      "n": 9, "category": "Insurance Product",
+      "url": "https://www.sumitclub.jp/ja/insurance/assist.html",
+      "httpOk": true, "title": "旅行保険 | 保険 | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":4,"h3":8,"img":17,"a":162,"table":2,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"],
+      "note": "In-page tab anchors (海外/国内旅行傷害保険) + comparison tables"
+    },
+    {
+      "n": 10, "category": "Point Program",
+      "url": "https://www.sumitclub.jp/ja/point/skymile.html",
+      "httpOk": true, "title": "デルタ航空 スカイマイル | ポイント | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":5,"h3":10,"img":20,"a":133,"table":0,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"]
+    },
+    {
+      "n": 11, "category": "Campaign LP",
+      "url": "https://www.sumitclub.jp/ja/campaign/new_member.html",
+      "httpOk": true, "title": "新規入会キャンペーン | キャンペーン・特典 | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":2,"h3":4,"img":17,"a":118,"table":0,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"]
+    },
+    {
+      "n": 12, "category": "Legal/Policy Text",
+      "url": "https://www.sumitclub.jp/ja/privacy.html",
+      "httpOk": true, "title": "個人情報に関するご案内 | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":1,"h3":11,"img":15,"a":116,"table":0,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"],
+      "note": "Text-heavy: h1 + numbered h3 sections + paragraphs"
+    },
+    {
+      "n": 13, "category": "Contact/Support",
+      "url": "https://www.sumitclub.jp/ja/contact.html",
+      "httpOk": true, "title": "お問い合わせ | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":5,"h3":27,"img":43,"a":163,"table":0,"form":0,"input":0,"iframe":2},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": true, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"],
+      "note": "No actual form; FAQ links + accordion of phone-contact sections"
+    },
+    {
+      "n": 14, "category": "Identity Verification Microsite",
+      "url": "https://www.sumitclub.jp/ja/honninkakunin.html",
+      "httpOk": true, "title": "本人確認書類について｜オンライン入会｜...",
+      "bodyClasses": "", "engine": "NON-AEM static microsite (no body class, html.no-js, div.wrapper)",
+      "counts": {"h1":1,"h2":3,"h3":0,"img":5,"a":9,"table":0,"form":0,"input":0,"iframe":1},
+      "hasBreadcrumb": false, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": false,
+      "mainSectionClasses": ["div.wrapper","div.btn-close-wrap"],
+      "note": "Own minimal header (logo + callcenter), no global nav/footer; banner h2 sections + paragraphs"
+    },
+    {
+      "n": 15, "category": "Corporate Info (AEM)",
+      "url": "https://www.sumitclub.jp/ja/corporate_site/company/overview.html",
+      "httpOk": true, "title": "会社概要・沿革 | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (corporate chrome variant)",
+      "counts": {"h1":1,"h2":2,"h3":0,"img":9,"a":45,"table":2,"form":0,"input":0,"iframe":3},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"],
+      "note": "Same AEM engine but distinct corporate header/nav (企業情報/事業/ニュース/採用) + corporate footer; breadcrumb nav[現在位置]; spec tables"
+    },
+    {
+      "n": 16, "category": "Corporate legacy shell (redirect stub)",
+      "url": "https://www.sumitclub.jp/corporate/index.html",
+      "httpOk": false, "redirectsTo": "https://www.sumitclub.jp/ja/corporate_site.html",
+      "title": "このページは移動しました", "bodyClasses": "", "engine": "Legacy static redirect stub",
+      "counts": {"h1":2,"h2":0,"h3":0,"img":5,"a":18,"table":0,"form":0,"input":0,"iframe":3},
+      "isRedirectStub": true,
+      "hasBreadcrumb": false, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": false,
+      "mainSectionClasses": ["div.topPage"],
+      "note": "10-second JS redirect page to AEM /ja/corporate_site.html. Legacy /corporate/ index is NOT live content."
+    },
+    {
+      "n": 17, "category": "Corporate Kaizen Notice (legacy static)",
+      "url": "https://www.sumitclub.jp/corporate/kaizen/2501.html",
+      "httpOk": true, "title": "「ダイナースクラブ限定オリジナルグッズ」... │クレジットカードの三井住友トラストクラブ",
+      "bodyClasses": "", "engine": "NON-AEM legacy static (isAEM:false), reuses corporate header/footer chrome",
+      "counts": {"h1":1,"h2":0,"h3":0,"img":18,"a":51,"table":0,"form":0,"input":0,"iframe":3},
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": false,
+      "mainSectionClasses": ["div"],
+      "note": "Hand-built static article (お客様のお声) under /corporate/; breadcrumb TOP>事業>kaizen; corporate footer"
+    },
+    {
+      "n": 18, "category": "Corporate Recruit microsite",
+      "url": "https://www.sumitclub.jp/corporate/recruit/newgraduate/index.html",
+      "httpOk": true, "title": "三井住友トラストクラブ Recruiting site",
+      "bodyClasses": "", "engine": "NON-AEM standalone microsite (jQuery, own design system)",
+      "counts": {"h1":3,"h2":2,"h3":6,"img":62,"a":84,"table":0,"form":0,"input":1,"iframe":1},
+      "hasBreadcrumb": false, "hasCarousel": true, "hasAccordion": false, "hasTabs": false, "hasCardGrid": false,
+      "mainSectionClasses": ["section.main"],
+      "note": "Fully separate recruiting site: article/main, own megamenu nav + footer, hero carousel, image-heavy section cards"
+    },
+    {
+      "n": 19, "category": "Card Application LP",
+      "url": "https://www.sumitclub.jp/entry_form/lp/delta_gold/index.html",
+      "httpOk": false, "redirectsTo": "https://www.sumitclub.jp/entry_form/lp/delta_visa/index.html",
+      "title": "マイルが貯まるよろこび 旅の準備をはじめよう / ...",
+      "bodyClasses": "", "engine": "NON-AEM marketing LP microsite (jQuery, image-heavy)",
+      "counts": {"h1":3,"h2":9,"h3":20,"img":101,"a":43,"table":5,"form":0,"input":0,"iframe":7},
+      "hasBreadcrumb": false, "hasCarousel": false, "hasAccordion": true, "hasTabs": false, "hasCardGrid": false,
+      "mainSectionClasses": ["div"],
+      "note": "/lp/delta_gold/ 301->/lp/delta_visa/. Marketing LP: own header/nav/footer, mostly <img> content, accordion notes, deep-links to /JPCRD/ application servlet. Heavy ad-tracking iframes."
+    },
+    {
+      "n": 20, "category": "English Homepage (legacy en shell)",
+      "url": "https://www.sumitclub.jp/en/index.html",
+      "httpOk": true, "title": "Home│Sumitomo Mitsui Trust Club",
+      "bodyClasses": "", "engine": "NON-AEM legacy /en/ shell (xhtml, div.site-width)",
+      "counts": {"h1":0,"h2":1,"h3":3,"img":27,"a":112,"table":0,"form":0,"input":1,"iframe":0},
+      "hasBreadcrumb": false, "hasCarousel": true, "hasAccordion": false, "hasTabs": false, "hasCardGrid": false,
+      "mainSectionClasses": ["div","div.site-width","div.site-width","hr","div"],
+      "note": "Separate English template w/ own EN header/menu/footer; hero carousel; many links point back to /ja/ AEM pages"
+    },
+    {
+      "n": 21, "category": "English Notice Detail",
+      "url": "https://www.sumitclub.jp/en/notice/20190301.html",
+      "httpOk": true, "title": "Important Notices│Sumitomo Mitsui Trust Club",
+      "bodyClasses": "", "engine": "NON-AEM legacy /en/ shell (xhtml, div.site-width.tc-padding)",
+      "counts": {"h1":1,"h2":0,"h3":1,"img":8,"a":83,"table":1,"form":0,"input":1,"iframe":0},
+      "hasBreadcrumb": false, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": false,
+      "mainSectionClasses": ["div","div.site-width.tc-padding","div"],
+      "note": "Same /en/ shell as #20; content = h1 + paragraphs + 1 table + in-text breadcrumb (Home > Notices)"
+    },
+    {
+      "n": 22, "category": "SSI Include Fragment",
+      "url": "https://www.sumitclub.jp/ja/ssi/footer.html",
+      "httpOk": true, "title": "", "bodyClasses": "",
+      "engine": "BARE PARTIAL (empty <head>, no title, footer markup only)",
+      "counts": {"h1":0,"h2":0,"h3":3,"img":3,"a":27,"table":0,"form":0,"input":0,"iframe":0},
+      "isBarePartial": true,
+      "mainSectionClasses": ["div.footerQABlock","div.footerBlock"],
+      "note": "Confirmed bare server-side-include fragment, NOT a full html page"
+    },
+    {
+      "n": 23, "category": "Member auth-gated detail",
+      "url": "https://www.sumitclub.jp/platinum/member/campaign/dining-selection/search/R0941.html",
+      "httpOk": false, "redirectsTo": "https://www.sumitclub.jp/platinum/member/campaign/dining-selection/search/index.html",
+      "title": "優待レストランを探す｜TRUST CLUB ダイニングセレクション",
+      "bodyClasses": "", "engine": "NON-AEM member microsite (JS restaurant search tool)",
+      "counts": {"h1":0,"h2":4,"h3":19,"img":41,"a":196,"table":0,"form":0,"input":111,"iframe":0},
+      "redirectedFromDetail": true,
+      "note": "Requested R0941.html detail not served; redirected to JS search index (member-only dining-selection). Not a stable per-restaurant URL; treat as auth/JS-gated, not directly migratable."
+    },
+    {
+      "n": 24, "category": "E-statement email template",
+      "url": "https://www.sumitclub.jp/en/email/estatement/2025/dn_eng_05_A.html",
+      "httpOk": true, "title": "Online Statement", "bodyClasses": "",
+      "engine": "BARE EMAIL TEMPLATE (noindex,nofollow; div.layout-canvas-a; no site chrome)",
+      "counts": {"h1":0,"h2":2,"h3":1,"img":4,"a":4,"table":0,"form":0,"input":0,"iframe":2},
+      "isEmailTemplate": true,
+      "mainSectionClasses": ["div.layout-canvas-a"],
+      "note": "Minimal HTML email body (banner + content + contentinfo). Not a website page."
+    },
+    {
+      "n": 25, "category": "Sitemap",
+      "url": "https://www.sumitclub.jp/ja/sitemap.html",
+      "httpOk": true, "title": "サイトマップ | ...",
+      "bodyClasses": "page basicpage", "engine": "AEM (/ja/)",
+      "counts": {"h1":1,"h2":11,"h3":2,"img":24,"a":222,"table":0,"form":0,"input":0,"iframe":3},
+      "isAEM": true,
+      "hasBreadcrumb": true, "hasCarousel": false, "hasAccordion": false, "hasTabs": false, "hasCardGrid": true,
+      "mainSectionClasses": ["div.root.responsivegrid"],
+      "note": "200 OK (no 404). h1 + 11 category h2 sections, each with nested link lists"
+    }
+  ]
+}

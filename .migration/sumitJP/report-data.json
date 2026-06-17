@@ -1,0 +1,260 @@
+[
+  {
+    "cat": "E-statement Email Template",
+    "n": 337,
+    "mode": "Exclude / Separate track",
+    "ex": "https://www.sumitclub.jp/en/email/estatement/2020/bc_eng_01_A.html"
+  },
+  {
+    "cat": "Notice / News Detail",
+    "n": 135,
+    "mode": "Automated",
+    "ex": "https://www.sumitclub.jp/en/notice/20190301.html"
+  },
+  {
+    "cat": "SSI Include Fragment",
+    "n": 119,
+    "mode": "Exclude (not a page)",
+    "ex": "https://www.sumitclub.jp/corporate/common/ssi/footer_corporate_site/corporate_site_footer.html"
+  },
+  {
+    "cat": "Corporate Kaizen Notice (archive)",
+    "n": 81,
+    "mode": "Automated",
+    "ex": "https://www.sumitclub.jp/corporate/kaizen/180102.html"
+  },
+  {
+    "cat": "Corporate Recruit Page",
+    "n": 65,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/corporate/recruit/index.html"
+  },
+  {
+    "cat": "Usage / How-to Page",
+    "n": 48,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/ja/commercialcard/usage/procedure.html"
+  },
+  {
+    "cat": "Card Application Landing Page (LP)",
+    "n": 33,
+    "mode": "Manual",
+    "ex": "https://www.sumitclub.jp/entry_form/ana_diners/index.html"
+  },
+  {
+    "cat": "Travel Service Page",
+    "n": 28,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/ja/travel/airport.html"
+  },
+  {
+    "cat": "Redirect / Router Stub",
+    "n": 18,
+    "mode": "Exclude / Re-point",
+    "ex": "https://www.sumitclub.jp/en/WD1100112.html"
+  },
+  {
+    "cat": "Club Online Promo (unique)",
+    "n": 15,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/ja/unique/answer_thanks.html"
+  },
+  {
+    "cat": "Legal / Policy Text",
+    "n": 14,
+    "mode": "Automated",
+    "ex": "https://www.sumitclub.jp/en/privacy/index.html"
+  },
+  {
+    "cat": "Card Product Detail",
+    "n": 14,
+    "mode": "Manual",
+    "ex": "https://www.sumitclub.jp/ja/cardlineup/deltagold.html"
+  },
+  {
+    "cat": "Insurance Product/Info",
+    "n": 14,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/ja/insurance/assist.html"
+  },
+  {
+    "cat": "LP Partial Fragment",
+    "n": 13,
+    "mode": "Exclude (not a page)",
+    "ex": "https://www.sumitclub.jp/corporate/recruit/newgraduate/special/project/_project01.html"
+  },
+  {
+    "cat": "Corporate Info (AEM)",
+    "n": 13,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/ja/corporate_site/company.html"
+  },
+  {
+    "cat": "Point Program Page",
+    "n": 13,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/ja/point/apply.html"
+  },
+  {
+    "cat": "Card Lineup Listing/Index",
+    "n": 9,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/en/cardlineup/card_services_list.html"
+  },
+  {
+    "cat": "Corporate Info (legacy shell)",
+    "n": 8,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/corporate/greeting/index.html"
+  },
+  {
+    "cat": "HTTP Error Page",
+    "n": 7,
+    "mode": "Manual / Replace",
+    "ex": "https://www.sumitclub.jp/en/400.html"
+  },
+  {
+    "cat": "Section Landing Page",
+    "n": 7,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/ja/corporate_site.html"
+  },
+  {
+    "cat": "Club Online Bumper Page",
+    "n": 6,
+    "mode": "Manual",
+    "ex": "https://www.sumitclub.jp/ja/ccol/3ds_appbumper.html"
+  },
+  {
+    "cat": "Entertainment/Lifestyle Page",
+    "n": 6,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/ja/entertainment/consulting.html"
+  },
+  {
+    "cat": "Cancellation/Termination Flow",
+    "n": 6,
+    "mode": "Manual",
+    "ex": "https://www.sumitclub.jp/ja/taikai/index.html"
+  },
+  {
+    "cat": "Identity Verification Microsite",
+    "n": 5,
+    "mode": "Manual",
+    "ex": "https://www.sumitclub.jp/ja/before-verify.html"
+  },
+  {
+    "cat": "Campaign Landing Page",
+    "n": 5,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/ja/campaign/cpn_delta.html"
+  },
+  {
+    "cat": "Bumper/Redirect Stub",
+    "n": 4,
+    "mode": "Exclude (not a page)",
+    "ex": "https://www.sumitclub.jp/corporate/common/bumper/link.html"
+  },
+  {
+    "cat": "Modal/Popup Fragment",
+    "n": 4,
+    "mode": "Exclude (not a page)",
+    "ex": "https://www.sumitclub.jp/en/announcement/17MK_R0415_modal_01.html"
+  },
+  {
+    "cat": "Member Dining-Selection Index/Search",
+    "n": 4,
+    "mode": "Manual / Auth-gated",
+    "ex": "https://www.sumitclub.jp/platinum/member/campaign/dining-selection.html"
+  },
+  {
+    "cat": "Contact / Support",
+    "n": 3,
+    "mode": "Manual",
+    "ex": "https://www.sumitclub.jp/en/contact/index.html"
+  },
+  {
+    "cat": "Blank/Helper Stub",
+    "n": 3,
+    "mode": "Exclude (not a page)",
+    "ex": "https://www.sumitclub.jp/en/popup/javascriptoff.html"
+  },
+  {
+    "cat": "Service Page (legacy en)",
+    "n": 3,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/en/service/clubonline.html"
+  },
+  {
+    "cat": "Sign-on / Login System",
+    "n": 3,
+    "mode": "Exclude / Re-point",
+    "ex": "https://www.sumitclub.jp/ja/signon/index.html"
+  },
+  {
+    "cat": "Tracking/System Stub",
+    "n": 2,
+    "mode": "Exclude (not a page)",
+    "ex": "https://www.sumitclub.jp/activecheck.html"
+  },
+  {
+    "cat": "Corporate News List",
+    "n": 2,
+    "mode": "Automated",
+    "ex": "https://www.sumitclub.jp/corporate/news/index.html"
+  },
+  {
+    "cat": "Homepage (locale)",
+    "n": 2,
+    "mode": "Manual",
+    "ex": "https://www.sumitclub.jp/en/index.html"
+  },
+  {
+    "cat": "System Error Stub",
+    "n": 2,
+    "mode": "Exclude / Re-point",
+    "ex": "https://www.sumitclub.jp/ja/pointmall/d_sysfail.html"
+  },
+  {
+    "cat": "Announcement Page",
+    "n": 1,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/en/announcement/17MK_R0415.html"
+  },
+  {
+    "cat": "FAQ Page",
+    "n": 1,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/en/faq/faq.html"
+  },
+  {
+    "cat": "Info Index",
+    "n": 1,
+    "mode": "Automated",
+    "ex": "https://www.sumitclub.jp/en/info/index.html"
+  },
+  {
+    "cat": "Sitemap",
+    "n": 1,
+    "mode": "Automated",
+    "ex": "https://www.sumitclub.jp/en/sitemap/index.html"
+  },
+  {
+    "cat": "App-bridge Stub",
+    "n": 1,
+    "mode": "Exclude / Re-point",
+    "ex": "https://www.sumitclub.jp/ja/bp/apple.html"
+  },
+  {
+    "cat": "Gourmet Service Page",
+    "n": 1,
+    "mode": "Assisted",
+    "ex": "https://www.sumitclub.jp/ja/gourmet/diningselection.html"
+  },
+  {
+    "cat": "Notice / News Index",
+    "n": 1,
+    "mode": "Automated",
+    "ex": "https://www.sumitclub.jp/ja/notice.html"
+  }
+]
